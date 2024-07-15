@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/timveletta/swu-mp-fetcher/issues"
   },
-  "homepage": "https://github.com/timveletta/swu-mp-fetcher#readme"
+  "homepage": "https://github.com/timveletta/swu-mp-fetcher#readme",
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
 }

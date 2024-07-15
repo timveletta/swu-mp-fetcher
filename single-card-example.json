@@ -1,0 +1,2724 @@
+{
+  "id": 2754,
+  "attributes": {
+    "title": "Moff Gideon",
+    "subtitle": "Formidable Commander",
+    "cardNumber": 7,
+    "cardCount": 262,
+    "artist": "Eric Hibbeler",
+    "artFrontHorizontal": true,
+    "artBackHorizontal": null,
+    "hasFoil": false,
+    "cost": 5,
+    "hp": 6,
+    "power": 3,
+    "text": "Action [exhaust]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
+    "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: </strong>Attack with a unit that costs <strong>3</strong> or less. If it's attacking a unit, it gets <strong>+1/+0</strong> for this attack.</p>",
+    "deployBox": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\n\nEach friendly unit that costs 3 or less gets +1/+0 and gains Overwhelm while attacking an enemy unit.",
+    "deployBoxStyled": "<p><strong>Overwhelm</strong> <i>(When attacking an enemy unit, deal excess damage to the opponent's base.)</i></p><p>Each friendly unit that costs <strong>3</strong> or less gets <strong>+1/+0</strong> and gains <strong>Overwhelm</strong> while attacking an enemy unit.</p>",
+    "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
+    "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
+    "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+    "cardId": null,
+    "createdAt": "2024-03-22T15:22:12.252Z",
+    "updatedAt": "2024-06-26T23:43:21.841Z",
+    "publishedAt": "2024-04-03T14:57:50.403Z",
+    "locale": "en",
+    "hyperspace": false,
+    "unique": true,
+    "showcase": false,
+    "cardUid": "2503039837",
+    "rules": null,
+    "rulesStyled": "",
+    "serialCode": "0201007",
+    "artFront": {
+      "data": {
+        "id": 4155,
+        "attributes": {
+          "name": "0201_007_EN_Moff_Gideon_Leader.png",
+          "alternativeText": "Moff_Gideon_Leader",
+          "caption": null,
+          "width": 418,
+          "height": 300,
+          "formats": {
+            "card": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//card_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+              "hash": "card_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+              "mime": "image/png",
+              "name": "card_SWH02_007_Moff_Gideon_Leader.png",
+              "path": null,
+              "size": 194.88,
+              "width": 400,
+              "height": 287
+            },
+            "xsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+              "hash": "xsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+              "mime": "image/png",
+              "name": "xsmall_SWH02_007_Moff_Gideon_Leader.png",
+              "path": null,
+              "size": 118.89,
+              "width": 300,
+              "height": 215
+            },
+            "xxsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+              "hash": "xxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+              "mime": "image/png",
+              "name": "xxsmall_SWH02_007_Moff_Gideon_Leader.png",
+              "path": null,
+              "size": 58.47,
+              "width": 200,
+              "height": 144
+            },
+            "xxxsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+              "hash": "xxxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+              "mime": "image/png",
+              "name": "xxxsmall_SWH02_007_Moff_Gideon_Leader.png",
+              "path": null,
+              "size": 35.22,
+              "width": 150,
+              "height": 108
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//thumbnail_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+              "hash": "thumbnail_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+              "mime": "image/png",
+              "name": "thumbnail_SWH02_007_Moff_Gideon_Leader.png",
+              "path": null,
+              "size": 86.39,
+              "width": 250,
+              "height": 179
+            }
+          },
+          "hash": "SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 60.34,
+          "url": "https://cdn.starwarsunlimited.com//SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2024-01-30T16:37:50.110Z",
+          "updatedAt": "2024-03-22T18:29:07.461Z"
+        }
+      }
+    },
+    "artBack": {
+      "data": {
+        "id": 4156,
+        "attributes": {
+          "name": "0201_007_EN_Moff_Gideon_Leader_unit.png",
+          "alternativeText": "Moff_Gideon_Leader_unit",
+          "caption": null,
+          "width": 300,
+          "height": 418,
+          "formats": {
+            "card": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//card_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+              "hash": "card_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+              "mime": "image/png",
+              "name": "card_SWH02_007_Moff_Gideon_Leader_unit.png",
+              "path": null,
+              "size": 210.9,
+              "width": 287,
+              "height": 400
+            },
+            "xsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+              "hash": "xsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+              "mime": "image/png",
+              "name": "xsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+              "path": null,
+              "size": 127.13,
+              "width": 215,
+              "height": 300
+            },
+            "xxsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+              "hash": "xxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+              "mime": "image/png",
+              "name": "xxsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+              "path": null,
+              "size": 62.01,
+              "width": 144,
+              "height": 200
+            },
+            "xxxsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+              "hash": "xxxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+              "mime": "image/png",
+              "name": "xxxsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+              "path": null,
+              "size": 36.92,
+              "width": 108,
+              "height": 150
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//thumbnail_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+              "hash": "thumbnail_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+              "mime": "image/png",
+              "name": "thumbnail_SWH02_007_Moff_Gideon_Leader_unit.png",
+              "path": null,
+              "size": 92.26,
+              "width": 179,
+              "height": 250
+            }
+          },
+          "hash": "SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 62.22,
+          "url": "https://cdn.starwarsunlimited.com//SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2024-01-30T16:37:50.136Z",
+          "updatedAt": "2024-03-22T18:29:15.760Z"
+        }
+      }
+    },
+    "artThumbnail": {
+      "data": {
+        "id": 4393,
+        "attributes": {
+          "name": "0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 300,
+          "height": 100,
+          "formats": {
+            "xxsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+              "hash": "xxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+              "mime": "image/png",
+              "name": "xxsmall_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+              "path": null,
+              "size": 31.61,
+              "width": 200,
+              "height": 67
+            },
+            "xxxsmall": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//xxxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+              "hash": "xxxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+              "mime": "image/png",
+              "name": "xxxsmall_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+              "path": null,
+              "size": 19.07,
+              "width": 150,
+              "height": 50
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://cdn.starwarsunlimited.com//thumbnail_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+              "hash": "thumbnail_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+              "mime": "image/png",
+              "name": "thumbnail_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+              "path": null,
+              "size": 46.19,
+              "width": 250,
+              "height": 83
+            }
+          },
+          "hash": "0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 18.9,
+          "url": "https://cdn.starwarsunlimited.com//0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2024-03-29T15:18:38.703Z",
+          "updatedAt": "2024-03-29T15:18:38.703Z"
+        }
+      }
+    },
+    "localizations": {
+      "data": [
+        {
+          "id": 2766,
+          "attributes": {
+            "title": "Moff Gideon",
+            "subtitle": "Comandante Formidabile",
+            "cardNumber": 7,
+            "cardCount": 262,
+            "artist": "Eric Hibbeler",
+            "artFrontHorizontal": true,
+            "artBackHorizontal": null,
+            "hasFoil": false,
+            "cost": 5,
+            "hp": 6,
+            "power": 3,
+            "text": "Azione [Esaurire]: Attacca con un’unità di costo pari o inferiore a 3. Se sta attaccando un’unità, riceve +1/+0 per questo attacco.",
+            "textStyled": "<p><strong>Azione [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Attacca con un’unità di costo pari o inferiore a <strong>3</strong>. Se sta attaccando un’unità, riceve <strong>+1/+0</strong> per questo attacco.</p>",
+            "deployBox": "Sopraffazione (Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)\n\nMentre un’unità amica di costo pari o inferiore a 3 attacca un’unità nemica, riceve +1/+0 e ottiene Sopraffazione.",
+            "deployBoxStyled": "<p><strong>Sopraffazione</strong> <i>(Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)</i></p><p>Mentre un’unità amica di costo pari o inferiore a <strong>3</strong> attacca un’unità nemica, riceve <strong>+1/+0</strong> e ottiene <strong>Sopraffazione</strong>.</p>",
+            "epicAction": "Azione Epica: Se controlli 5 o più risorse, schiera questo leader (giralo, approntalo e spostalo nell’arena terrestre).",
+            "epicActionStyled": "<p><strong>Azione Epica:</strong> Se controlli 5 o più risorse, schiera questo leader <i>(giralo, approntalo e spostalo nell’arena terrestre).</i></p>",
+            "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+            "cardId": "2754",
+            "createdAt": "2024-03-29T21:10:01.437Z",
+            "updatedAt": "2024-06-26T23:43:21.782Z",
+            "publishedAt": "2024-04-03T14:58:18.752Z",
+            "locale": "it",
+            "hyperspace": false,
+            "unique": true,
+            "showcase": false,
+            "cardUid": "2503039837",
+            "rules": null,
+            "rulesStyled": "",
+            "serialCode": "0201007"
+          }
+        },
+        {
+          "id": 2765,
+          "attributes": {
+            "title": "Moff Gideon",
+            "subtitle": "Comandante Formidable",
+            "cardNumber": 7,
+            "cardCount": 262,
+            "artist": "Eric Hibbeler",
+            "artFrontHorizontal": true,
+            "artBackHorizontal": null,
+            "hasFoil": false,
+            "cost": 5,
+            "hp": 6,
+            "power": 3,
+            "text": "Acción [Agota]: Ataca con una unidad que cueste 3 o menos. Si está atacando a una unidad, recibe +1/+0 para este ataque.",
+            "textStyled": "<p><strong>Acción [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Ataca con una unidad que cueste <strong>3</strong> o menos. Si está atacando a una unidad, recibe <strong>+1/+0</strong> para este ataque.</p>",
+            "deployBox": "Formidable (Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)\n\nCada unidad aliada que cueste 3 o menos recibe +1/+0 y gana Formidable mientras esté atacando a una unidad enemiga.",
+            "deployBoxStyled": "<p><strong>Formidable</strong> <i>(Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)</i></p><p>Cada unidad aliada que cueste <strong>3</strong> o menos recibe <strong>+1/+0</strong> y gana <strong>Formidable</strong> mientras esté atacando a una unidad enemiga.</p>",
+            "epicAction": "Acción épica: Si controlas al menos 5 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)",
+            "epicActionStyled": "<p><strong>Acción épica:</strong><i> </i>Si controlas al menos 5 recursos, despliega este líder.<i> (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)</i></p>",
+            "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+            "cardId": "2754",
+            "createdAt": "2024-03-29T21:03:37.173Z",
+            "updatedAt": "2024-06-26T23:43:21.669Z",
+            "publishedAt": "2024-06-26T23:43:21.663Z",
+            "locale": "es",
+            "hyperspace": false,
+            "unique": true,
+            "showcase": false,
+            "cardUid": "2503039837",
+            "rules": null,
+            "rulesStyled": "",
+            "serialCode": "0201007"
+          }
+        },
+        {
+          "id": 2764,
+          "attributes": {
+            "title": "Moff Gideon",
+            "subtitle": "Redoutable Commandant",
+            "cardNumber": 7,
+            "cardCount": 262,
+            "artist": "Eric Hibbeler",
+            "artFrontHorizontal": true,
+            "artBackHorizontal": null,
+            "hasFoil": false,
+            "cost": 5,
+            "hp": 6,
+            "power": 3,
+            "text": "Action [Inclinez] : attaquez avec une unité qui coûte 3 ou moins. Si elle attaque une unité, elle a +1/+0 pour cette attaque.",
+            "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">] : </strong>attaquez avec une unité qui coûte <strong>3</strong> ou moins. Si elle attaque une unité, elle a <strong>+1/+0</strong> pour cette attaque.</p>",
+            "deployBox": "Débordement (Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)\n\nChaque unité amie qui coûte 3 ou moins a +1/+0 et gagne Débordement tant qu’elle attaque une unité ennemie.",
+            "deployBoxStyled": "<p><strong>Débordement </strong><i>(Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)</i></p><p>Chaque unité amie qui coûte <strong>3</strong> ou moins a <strong>+1/+0</strong> et gagne <strong>Débordement</strong> tant qu’elle attaque une unité ennemie.</p>",
+            "epicAction": "Action Épique : si vous contrôlez au moins 5 ressources, déployez ce leader. (Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)",
+            "epicActionStyled": "<p><strong>Action Épique :</strong> si vous contrôlez au moins 5 ressources, déployez ce leader. <i>(Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)</i></p>",
+            "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+            "cardId": "2754",
+            "createdAt": "2024-03-29T19:45:45.384Z",
+            "updatedAt": "2024-06-26T23:43:21.798Z",
+            "publishedAt": "2024-04-03T14:58:02.264Z",
+            "locale": "fr",
+            "hyperspace": false,
+            "unique": true,
+            "showcase": false,
+            "cardUid": "2503039837",
+            "rules": null,
+            "rulesStyled": "",
+            "serialCode": "0201007"
+          }
+        },
+        {
+          "id": 2763,
+          "attributes": {
+            "title": "Moff Gideon",
+            "subtitle": "Gefürchteter Kommandant",
+            "cardNumber": 7,
+            "cardCount": 262,
+            "artist": "Eric Hibbeler",
+            "artFrontHorizontal": true,
+            "artBackHorizontal": null,
+            "hasFoil": false,
+            "cost": 5,
+            "hp": 6,
+            "power": 3,
+            "text": "Aktion [Erschöpfe]: Greife mit einer Einheit an, die 3 oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff +1/+0.",
+            "textStyled": "<p><strong>Aktion [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Greife mit einer Einheit an, die <strong>3</strong> oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff <strong>+1/+0</strong>.</p>",
+            "deployBox": "Überwältigen (Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)\n\nJede befreundete Einheit, die 3 oder weniger kostet, bekommt +1/+0 und erhält Überwältigen, solange sie eine feindliche Einheit angreift.",
+            "deployBoxStyled": "<p><strong>Überwältigen</strong> <i>(Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)</i></p><p>Jede befreundete Einheit, die <strong>3</strong> oder weniger kostet, bekommt <strong>+1/+0</strong> und erhält <strong>Überwältigen</strong>, solange sie eine feindliche Einheit angreift.</p>",
+            "epicAction": "Epische Aktion: Falls du 5 oder mehr Ressourcen kontrollierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)",
+            "epicActionStyled": "<p><strong>Epische Aktion: </strong>Falls du 5&nbsp;oder mehr Ressourcen kontrollierst, rufe diesen Anführer. <i>(Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)</i></p>",
+            "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+            "cardId": "2754",
+            "createdAt": "2024-03-29T19:40:45.785Z",
+            "updatedAt": "2024-06-26T23:43:21.819Z",
+            "publishedAt": "2024-04-03T14:57:55.418Z",
+            "locale": "de",
+            "hyperspace": false,
+            "unique": true,
+            "showcase": false,
+            "cardUid": "2503039837",
+            "rules": null,
+            "rulesStyled": "",
+            "serialCode": "0201007"
+          }
+        }
+      ]
+    },
+    "variants": {
+      "data": [
+        {
+          "id": 8664,
+          "attributes": {
+            "title": "Moff Gideon",
+            "subtitle": "Formidable Commander",
+            "cardNumber": 1,
+            "cardCount": 2,
+            "artist": "Eric Hibbeler",
+            "artFrontHorizontal": true,
+            "artBackHorizontal": false,
+            "hasFoil": false,
+            "cost": 5,
+            "hp": 6,
+            "power": 3,
+            "text": "Action [exhaust]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
+            "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: </strong>Attack with a unit that costs <strong>3</strong> or less. If it's attacking a unit, it gets <strong>+1/+0</strong> for this attack.</p>",
+            "deployBox": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\n\nEach friendly unit that costs 3 or less gets +1/+0 and gains Overwhelm while attacking an enemy unit.",
+            "deployBoxStyled": "<p><strong>Overwhelm</strong> <i>(When attacking an enemy unit, deal excess damage to the opponent's base.)</i></p><p>Each friendly unit that costs <strong>3</strong> or less gets <strong>+1/+0</strong> and gains <strong>Overwhelm</strong> while attacking an enemy unit.</p>",
+            "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
+            "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
+            "linkHtml": "<a href=\"/cards?cid=7091323476\" class=\"card-tooltip\" data-card=\"7091323476\">Moff Gideon</a>",
+            "cardId": null,
+            "createdAt": "2024-06-26T18:58:33.726Z",
+            "updatedAt": "2024-06-27T20:02:53.558Z",
+            "publishedAt": "2024-06-27T20:02:15.751Z",
+            "locale": "en",
+            "hyperspace": true,
+            "unique": true,
+            "showcase": false,
+            "cardUid": "7091323476",
+            "rules": null,
+            "rulesStyled": "",
+            "serialCode": "0202001",
+            "variantOf": {
+              "data": {
+                "id": 2754,
+                "attributes": {
+                  "title": "Moff Gideon",
+                  "subtitle": "Formidable Commander",
+                  "cardNumber": 7,
+                  "cardCount": 262,
+                  "artist": "Eric Hibbeler",
+                  "artFrontHorizontal": true,
+                  "artBackHorizontal": null,
+                  "hasFoil": false,
+                  "cost": 5,
+                  "hp": 6,
+                  "power": 3,
+                  "text": "Action [exhaust]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
+                  "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: </strong>Attack with a unit that costs <strong>3</strong> or less. If it's attacking a unit, it gets <strong>+1/+0</strong> for this attack.</p>",
+                  "deployBox": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\n\nEach friendly unit that costs 3 or less gets +1/+0 and gains Overwhelm while attacking an enemy unit.",
+                  "deployBoxStyled": "<p><strong>Overwhelm</strong> <i>(When attacking an enemy unit, deal excess damage to the opponent's base.)</i></p><p>Each friendly unit that costs <strong>3</strong> or less gets <strong>+1/+0</strong> and gains <strong>Overwhelm</strong> while attacking an enemy unit.</p>",
+                  "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
+                  "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
+                  "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                  "cardId": "8664",
+                  "createdAt": "2024-03-22T15:22:12.252Z",
+                  "updatedAt": "2024-06-26T23:43:21.841Z",
+                  "publishedAt": "2024-04-03T14:57:50.403Z",
+                  "locale": "en",
+                  "hyperspace": false,
+                  "unique": true,
+                  "showcase": false,
+                  "cardUid": "2503039837",
+                  "rules": null,
+                  "rulesStyled": "",
+                  "serialCode": "0201007",
+                  "artFront": {
+                    "data": {
+                      "id": 4155,
+                      "attributes": {
+                        "name": "0201_007_EN_Moff_Gideon_Leader.png",
+                        "alternativeText": "Moff_Gideon_Leader",
+                        "caption": null,
+                        "width": 418,
+                        "height": 300,
+                        "formats": {
+                          "card": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//card_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "card_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "card_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 194.88,
+                            "width": 400,
+                            "height": 287
+                          },
+                          "xsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "xsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "xsmall_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 118.89,
+                            "width": 300,
+                            "height": 215
+                          },
+                          "xxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "xxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "xxsmall_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 58.47,
+                            "width": 200,
+                            "height": 144
+                          },
+                          "xxxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "xxxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "xxxsmall_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 35.22,
+                            "width": 150,
+                            "height": 108
+                          },
+                          "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//thumbnail_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "thumbnail_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "thumbnail_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 86.39,
+                            "width": 250,
+                            "height": 179
+                          }
+                        },
+                        "hash": "SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 60.34,
+                        "url": "https://cdn.starwarsunlimited.com//SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2024-01-30T16:37:50.110Z",
+                        "updatedAt": "2024-03-22T18:29:07.461Z"
+                      }
+                    }
+                  },
+                  "artBack": {
+                    "data": {
+                      "id": 4156,
+                      "attributes": {
+                        "name": "0201_007_EN_Moff_Gideon_Leader_unit.png",
+                        "alternativeText": "Moff_Gideon_Leader_unit",
+                        "caption": null,
+                        "width": 300,
+                        "height": 418,
+                        "formats": {
+                          "card": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//card_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "card_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "card_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 210.9,
+                            "width": 287,
+                            "height": 400
+                          },
+                          "xsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "xsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "xsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 127.13,
+                            "width": 215,
+                            "height": 300
+                          },
+                          "xxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "xxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "xxsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 62.01,
+                            "width": 144,
+                            "height": 200
+                          },
+                          "xxxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "xxxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "xxxsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 36.92,
+                            "width": 108,
+                            "height": 150
+                          },
+                          "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//thumbnail_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "thumbnail_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "thumbnail_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 92.26,
+                            "width": 179,
+                            "height": 250
+                          }
+                        },
+                        "hash": "SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 62.22,
+                        "url": "https://cdn.starwarsunlimited.com//SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2024-01-30T16:37:50.136Z",
+                        "updatedAt": "2024-03-22T18:29:15.760Z"
+                      }
+                    }
+                  },
+                  "artThumbnail": {
+                    "data": {
+                      "id": 4393,
+                      "attributes": {
+                        "name": "0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 300,
+                        "height": 100,
+                        "formats": {
+                          "xxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                            "hash": "xxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                            "mime": "image/png",
+                            "name": "xxsmall_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                            "path": null,
+                            "size": 31.61,
+                            "width": 200,
+                            "height": 67
+                          },
+                          "xxxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                            "hash": "xxxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                            "mime": "image/png",
+                            "name": "xxxsmall_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                            "path": null,
+                            "size": 19.07,
+                            "width": 150,
+                            "height": 50
+                          },
+                          "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//thumbnail_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                            "hash": "thumbnail_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                            "mime": "image/png",
+                            "name": "thumbnail_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                            "path": null,
+                            "size": 46.19,
+                            "width": 250,
+                            "height": 83
+                          }
+                        },
+                        "hash": "0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 18.9,
+                        "url": "https://cdn.starwarsunlimited.com//0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2024-03-29T15:18:38.703Z",
+                        "updatedAt": "2024-03-29T15:18:38.703Z"
+                      }
+                    }
+                  },
+                  "localizations": {
+                    "data": [
+                      {
+                        "id": 2766,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Comandante Formidabile",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Azione [Esaurire]: Attacca con un’unità di costo pari o inferiore a 3. Se sta attaccando un’unità, riceve +1/+0 per questo attacco.",
+                          "textStyled": "<p><strong>Azione [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Attacca con un’unità di costo pari o inferiore a <strong>3</strong>. Se sta attaccando un’unità, riceve <strong>+1/+0</strong> per questo attacco.</p>",
+                          "deployBox": "Sopraffazione (Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)\n\nMentre un’unità amica di costo pari o inferiore a 3 attacca un’unità nemica, riceve +1/+0 e ottiene Sopraffazione.",
+                          "deployBoxStyled": "<p><strong>Sopraffazione</strong> <i>(Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)</i></p><p>Mentre un’unità amica di costo pari o inferiore a <strong>3</strong> attacca un’unità nemica, riceve <strong>+1/+0</strong> e ottiene <strong>Sopraffazione</strong>.</p>",
+                          "epicAction": "Azione Epica: Se controlli 5 o più risorse, schiera questo leader (giralo, approntalo e spostalo nell’arena terrestre).",
+                          "epicActionStyled": "<p><strong>Azione Epica:</strong> Se controlli 5 o più risorse, schiera questo leader <i>(giralo, approntalo e spostalo nell’arena terrestre).</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T21:10:01.437Z",
+                          "updatedAt": "2024-06-26T23:43:21.782Z",
+                          "publishedAt": "2024-04-03T14:58:18.752Z",
+                          "locale": "it",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      },
+                      {
+                        "id": 2765,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Comandante Formidable",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Acción [Agota]: Ataca con una unidad que cueste 3 o menos. Si está atacando a una unidad, recibe +1/+0 para este ataque.",
+                          "textStyled": "<p><strong>Acción [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Ataca con una unidad que cueste <strong>3</strong> o menos. Si está atacando a una unidad, recibe <strong>+1/+0</strong> para este ataque.</p>",
+                          "deployBox": "Formidable (Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)\n\nCada unidad aliada que cueste 3 o menos recibe +1/+0 y gana Formidable mientras esté atacando a una unidad enemiga.",
+                          "deployBoxStyled": "<p><strong>Formidable</strong> <i>(Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)</i></p><p>Cada unidad aliada que cueste <strong>3</strong> o menos recibe <strong>+1/+0</strong> y gana <strong>Formidable</strong> mientras esté atacando a una unidad enemiga.</p>",
+                          "epicAction": "Acción épica: Si controlas al menos 5 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)",
+                          "epicActionStyled": "<p><strong>Acción épica:</strong><i> </i>Si controlas al menos 5 recursos, despliega este líder.<i> (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T21:03:37.173Z",
+                          "updatedAt": "2024-06-26T23:43:21.669Z",
+                          "publishedAt": "2024-06-26T23:43:21.663Z",
+                          "locale": "es",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      },
+                      {
+                        "id": 2764,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Redoutable Commandant",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Action [Inclinez] : attaquez avec une unité qui coûte 3 ou moins. Si elle attaque une unité, elle a +1/+0 pour cette attaque.",
+                          "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">] : </strong>attaquez avec une unité qui coûte <strong>3</strong> ou moins. Si elle attaque une unité, elle a <strong>+1/+0</strong> pour cette attaque.</p>",
+                          "deployBox": "Débordement (Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)\n\nChaque unité amie qui coûte 3 ou moins a +1/+0 et gagne Débordement tant qu’elle attaque une unité ennemie.",
+                          "deployBoxStyled": "<p><strong>Débordement </strong><i>(Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)</i></p><p>Chaque unité amie qui coûte <strong>3</strong> ou moins a <strong>+1/+0</strong> et gagne <strong>Débordement</strong> tant qu’elle attaque une unité ennemie.</p>",
+                          "epicAction": "Action Épique : si vous contrôlez au moins 5 ressources, déployez ce leader. (Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)",
+                          "epicActionStyled": "<p><strong>Action Épique :</strong> si vous contrôlez au moins 5 ressources, déployez ce leader. <i>(Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T19:45:45.384Z",
+                          "updatedAt": "2024-06-26T23:43:21.798Z",
+                          "publishedAt": "2024-04-03T14:58:02.264Z",
+                          "locale": "fr",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      },
+                      {
+                        "id": 2763,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Gefürchteter Kommandant",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Aktion [Erschöpfe]: Greife mit einer Einheit an, die 3 oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff +1/+0.",
+                          "textStyled": "<p><strong>Aktion [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Greife mit einer Einheit an, die <strong>3</strong> oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff <strong>+1/+0</strong>.</p>",
+                          "deployBox": "Überwältigen (Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)\n\nJede befreundete Einheit, die 3 oder weniger kostet, bekommt +1/+0 und erhält Überwältigen, solange sie eine feindliche Einheit angreift.",
+                          "deployBoxStyled": "<p><strong>Überwältigen</strong> <i>(Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)</i></p><p>Jede befreundete Einheit, die <strong>3</strong> oder weniger kostet, bekommt <strong>+1/+0</strong> und erhält <strong>Überwältigen</strong>, solange sie eine feindliche Einheit angreift.</p>",
+                          "epicAction": "Epische Aktion: Falls du 5 oder mehr Ressourcen kontrollierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)",
+                          "epicActionStyled": "<p><strong>Epische Aktion: </strong>Falls du 5&nbsp;oder mehr Ressourcen kontrollierst, rufe diesen Anführer. <i>(Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T19:40:45.785Z",
+                          "updatedAt": "2024-06-26T23:43:21.819Z",
+                          "publishedAt": "2024-04-03T14:57:55.418Z",
+                          "locale": "de",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      }
+                    ]
+                  },
+                  "aspects": {
+                    "data": [
+                      {
+                        "id": 7,
+                        "attributes": {
+                          "name": "Command",
+                          "description": "<p>Accelerate your resources and call upon lots of units or strengthen the units you already have in play. This is the aspect of choice for players who want to overwhelm their opponents with a massive board presence. &nbsp;</p>",
+                          "color": "#0b992d",
+                          "createdAt": "2023-08-10T21:06:20.704Z",
+                          "updatedAt": "2024-01-02T18:24:37.502Z",
+                          "publishedAt": "2023-11-15T20:01:18.812Z",
+                          "locale": "en",
+                          "englishName": "Command"
+                        }
+                      },
+                      {
+                        "id": 27,
+                        "attributes": {
+                          "name": "Villainy",
+                          "description": "<p>Battle for ultimate power with cards that feature the antagonists of the <i>Star Wars</i> series. This aspect is perfect for players who want to command huge armies or wield powerful destructive effects. Similar to Heroism, this aspect is often paired with another aspect on a card.&nbsp;</p>",
+                          "color": "#000000",
+                          "createdAt": "2023-08-10T21:18:54.590Z",
+                          "updatedAt": "2024-01-02T18:25:57.609Z",
+                          "publishedAt": "2023-11-15T20:02:14.861Z",
+                          "locale": "en",
+                          "englishName": "Villainy"
+                        }
+                      }
+                    ]
+                  },
+                  "aspectDuplicates": { "data": [] },
+                  "type": {
+                    "data": {
+                      "id": 4,
+                      "attributes": {
+                        "name": "Leader",
+                        "description": "",
+                        "value": "Leader",
+                        "createdAt": "2023-08-14T21:36:36.932Z",
+                        "updatedAt": "2024-03-05T17:11:46.417Z",
+                        "publishedAt": "2023-11-15T17:30:41.305Z",
+                        "locale": "en",
+                        "sortValue": 1
+                      }
+                    }
+                  },
+                  "type2": {
+                    "data": {
+                      "id": 6,
+                      "attributes": {
+                        "name": "Leader Unit",
+                        "description": "",
+                        "value": "Leader Unit",
+                        "createdAt": "2023-08-14T21:41:58.575Z",
+                        "updatedAt": "2024-03-05T17:12:16.062Z",
+                        "publishedAt": "2023-11-15T17:30:47.748Z",
+                        "locale": "en",
+                        "sortValue": 1
+                      }
+                    }
+                  },
+                  "traits": {
+                    "data": [
+                      {
+                        "id": 7,
+                        "attributes": {
+                          "name": "Imperial",
+                          "description": "",
+                          "createdAt": "2023-08-15T14:38:15.844Z",
+                          "updatedAt": "2023-11-15T23:58:36.411Z",
+                          "publishedAt": "2023-11-15T23:58:36.407Z",
+                          "locale": "en"
+                        }
+                      },
+                      {
+                        "id": 12,
+                        "attributes": {
+                          "name": "Official",
+                          "description": "",
+                          "createdAt": "2023-08-15T14:38:40.778Z",
+                          "updatedAt": "2023-11-16T00:00:09.096Z",
+                          "publishedAt": "2023-11-16T00:00:09.091Z",
+                          "locale": "en"
+                        }
+                      }
+                    ]
+                  },
+                  "arenas": {
+                    "data": [
+                      {
+                        "id": 2,
+                        "attributes": {
+                          "name": "Ground",
+                          "description": null,
+                          "createdAt": "2023-08-15T14:32:07.804Z",
+                          "updatedAt": "2023-08-18T21:37:34.527Z",
+                          "publishedAt": "2023-08-18T21:37:34.522Z",
+                          "locale": "en"
+                        }
+                      }
+                    ]
+                  },
+                  "keywords": {
+                    "data": [
+                      {
+                        "id": 27,
+                        "attributes": {
+                          "name": "Overwhelm",
+                          "description": "",
+                          "createdAt": "2023-11-28T17:09:53.732Z",
+                          "updatedAt": "2023-11-28T17:10:23.307Z",
+                          "publishedAt": "2023-11-28T17:09:54.638Z",
+                          "locale": "en"
+                        }
+                      }
+                    ]
+                  },
+                  "rarity": {
+                    "data": {
+                      "id": 22,
+                      "attributes": {
+                        "name": "Special",
+                        "character": "S",
+                        "color": "#000000",
+                        "createdAt": "2023-08-14T21:33:28.942Z",
+                        "updatedAt": "2024-04-25T14:06:08.982Z",
+                        "publishedAt": "2023-11-15T20:15:43.619Z",
+                        "locale": "en",
+                        "englishName": "Special",
+                        "sortValue": 1
+                      }
+                    }
+                  },
+                  "expansion": {
+                    "data": {
+                      "id": 8,
+                      "attributes": {
+                        "name": "Shadows of the Galaxy",
+                        "description": "",
+                        "code": "SHD",
+                        "createdAt": "2024-03-22T15:04:51.835Z",
+                        "updatedAt": "2024-04-25T14:07:34.348Z",
+                        "publishedAt": "2024-04-03T14:50:17.860Z",
+                        "locale": "en",
+                        "sortValue": 2
+                      }
+                    }
+                  },
+                  "variantTypes": { "data": [] }
+                }
+              }
+            },
+            "variantTypes": { "data": [] },
+            "expansion": {
+              "data": {
+                "id": 8,
+                "attributes": {
+                  "name": "Shadows of the Galaxy",
+                  "description": "",
+                  "code": "SHD",
+                  "createdAt": "2024-03-22T15:04:51.835Z",
+                  "updatedAt": "2024-04-25T14:07:34.348Z",
+                  "publishedAt": "2024-04-03T14:50:17.860Z",
+                  "locale": "en",
+                  "sortValue": 2
+                }
+              }
+            },
+            "rarity": {
+              "data": {
+                "id": 22,
+                "attributes": {
+                  "name": "Special",
+                  "character": "S",
+                  "color": "#000000",
+                  "createdAt": "2023-08-14T21:33:28.942Z",
+                  "updatedAt": "2024-04-25T14:06:08.982Z",
+                  "publishedAt": "2023-11-15T20:15:43.619Z",
+                  "locale": "en",
+                  "englishName": "Special",
+                  "sortValue": 1
+                }
+              }
+            },
+            "keywords": {
+              "data": [
+                {
+                  "id": 27,
+                  "attributes": {
+                    "name": "Overwhelm",
+                    "description": "",
+                    "createdAt": "2023-11-28T17:09:53.732Z",
+                    "updatedAt": "2023-11-28T17:10:23.307Z",
+                    "publishedAt": "2023-11-28T17:09:54.638Z",
+                    "locale": "en"
+                  }
+                }
+              ]
+            },
+            "arenas": {
+              "data": [
+                {
+                  "id": 2,
+                  "attributes": {
+                    "name": "Ground",
+                    "description": null,
+                    "createdAt": "2023-08-15T14:32:07.804Z",
+                    "updatedAt": "2023-08-18T21:37:34.527Z",
+                    "publishedAt": "2023-08-18T21:37:34.522Z",
+                    "locale": "en"
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "data": [
+                {
+                  "id": 7,
+                  "attributes": {
+                    "name": "Imperial",
+                    "description": "",
+                    "createdAt": "2023-08-15T14:38:15.844Z",
+                    "updatedAt": "2023-11-15T23:58:36.411Z",
+                    "publishedAt": "2023-11-15T23:58:36.407Z",
+                    "locale": "en"
+                  }
+                },
+                {
+                  "id": 12,
+                  "attributes": {
+                    "name": "Official",
+                    "description": "",
+                    "createdAt": "2023-08-15T14:38:40.778Z",
+                    "updatedAt": "2023-11-16T00:00:09.096Z",
+                    "publishedAt": "2023-11-16T00:00:09.091Z",
+                    "locale": "en"
+                  }
+                }
+              ]
+            },
+            "type2": {
+              "data": {
+                "id": 6,
+                "attributes": {
+                  "name": "Leader Unit",
+                  "description": "",
+                  "value": "Leader Unit",
+                  "createdAt": "2023-08-14T21:41:58.575Z",
+                  "updatedAt": "2024-03-05T17:12:16.062Z",
+                  "publishedAt": "2023-11-15T17:30:47.748Z",
+                  "locale": "en",
+                  "sortValue": 1
+                }
+              }
+            },
+            "type": {
+              "data": {
+                "id": 4,
+                "attributes": {
+                  "name": "Leader",
+                  "description": "",
+                  "value": "Leader",
+                  "createdAt": "2023-08-14T21:36:36.932Z",
+                  "updatedAt": "2024-03-05T17:11:46.417Z",
+                  "publishedAt": "2023-11-15T17:30:41.305Z",
+                  "locale": "en",
+                  "sortValue": 1
+                }
+              }
+            },
+            "aspectDuplicates": { "data": [] },
+            "aspects": {
+              "data": [
+                {
+                  "id": 7,
+                  "attributes": {
+                    "name": "Command",
+                    "description": "<p>Accelerate your resources and call upon lots of units or strengthen the units you already have in play. This is the aspect of choice for players who want to overwhelm their opponents with a massive board presence. &nbsp;</p>",
+                    "color": "#0b992d",
+                    "createdAt": "2023-08-10T21:06:20.704Z",
+                    "updatedAt": "2024-01-02T18:24:37.502Z",
+                    "publishedAt": "2023-11-15T20:01:18.812Z",
+                    "locale": "en",
+                    "englishName": "Command"
+                  }
+                },
+                {
+                  "id": 27,
+                  "attributes": {
+                    "name": "Villainy",
+                    "description": "<p>Battle for ultimate power with cards that feature the antagonists of the <i>Star Wars</i> series. This aspect is perfect for players who want to command huge armies or wield powerful destructive effects. Similar to Heroism, this aspect is often paired with another aspect on a card.&nbsp;</p>",
+                    "color": "#000000",
+                    "createdAt": "2023-08-10T21:18:54.590Z",
+                    "updatedAt": "2024-01-02T18:25:57.609Z",
+                    "publishedAt": "2023-11-15T20:02:14.861Z",
+                    "locale": "en",
+                    "englishName": "Villainy"
+                  }
+                }
+              ]
+            },
+            "localizations": {
+              "data": [
+                {
+                  "id": 8833,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Formidable Commander",
+                    "cardNumber": 1,
+                    "cardCount": 2,
+                    "artist": "Eric Hibbeler",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Action [exhaust]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
+                    "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: </strong>Attack with a unit that costs <strong>3</strong> or less. If it's attacking a unit, it gets <strong>+1/+0</strong> for this attack.</p>",
+                    "deployBox": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\n\nEach friendly unit that costs 3 or less gets +1/+0 and gains Overwhelm while attacking an enemy unit.",
+                    "deployBoxStyled": "<p><strong>Overwhelm</strong> <i>(When attacking an enemy unit, deal excess damage to the opponent's base.)</i></p><p>Each friendly unit that costs <strong>3</strong> or less gets <strong>+1/+0</strong> and gains <strong>Overwhelm</strong> while attacking an enemy unit.</p>",
+                    "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
+                    "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=7091323476\" class=\"card-tooltip\" data-card=\"7091323476\">Moff Gideon</a>",
+                    "cardId": "8664",
+                    "createdAt": "2024-06-26T23:51:41.555Z",
+                    "updatedAt": "2024-06-27T20:02:53.436Z",
+                    "publishedAt": "2024-06-27T20:02:53.429Z",
+                    "locale": "it",
+                    "hyperspace": true,
+                    "unique": true,
+                    "showcase": false,
+                    "cardUid": "7091323476",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0202001"
+                  }
+                },
+                {
+                  "id": 8832,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Comandante Formidable",
+                    "cardNumber": 1,
+                    "cardCount": 2,
+                    "artist": "Eric Hibbeler",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Acción [Agota]: Ataca con una unidad que cueste 3 o menos. Si está atacando a una unidad, recibe +1/+0 para este ataque.",
+                    "textStyled": "<p><strong>Acción [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Ataca con una unidad que cueste <strong>3</strong> o menos. Si está atacando a una unidad, recibe <strong>+1/+0</strong> para este ataque.</p>",
+                    "deployBox": "Formidable (Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)\n\nCada unidad aliada que cueste 3 o menos recibe +1/+0 y gana Formidable mientras esté atacando a una unidad enemiga.",
+                    "deployBoxStyled": "<p><strong>Formidable</strong> <i>(Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)</i></p><p>Cada unidad aliada que cueste <strong>3</strong> o menos recibe <strong>+1/+0</strong> y gana <strong>Formidable</strong> mientras esté atacando a una unidad enemiga.</p>",
+                    "epicAction": "Acción épica: Si controlas al menos 5 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)",
+                    "epicActionStyled": "<p><strong>Acción épica:</strong><i> </i>Si controlas al menos 5 recursos, despliega este líder.<i> (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=7091323476\" class=\"card-tooltip\" data-card=\"7091323476\">Moff Gideon</a>",
+                    "cardId": "8664",
+                    "createdAt": "2024-06-26T23:47:56.355Z",
+                    "updatedAt": "2024-06-27T20:02:53.545Z",
+                    "publishedAt": "2024-06-27T20:02:47.994Z",
+                    "locale": "es",
+                    "hyperspace": true,
+                    "unique": true,
+                    "showcase": false,
+                    "cardUid": "7091323476",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0202001"
+                  }
+                },
+                {
+                  "id": 8666,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Redoutable Commandant",
+                    "cardNumber": 1,
+                    "cardCount": 2,
+                    "artist": "Eric Hibbeler",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Action [Inclinez] : attaquez avec une unité qui coûte 3 ou moins. Si elle attaque une unité, elle a +1/+0 pour cette attaque.",
+                    "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">] : </strong>attaquez avec une unité qui coûte <strong>3</strong> ou moins. Si elle attaque une unité, elle a <strong>+1/+0</strong> pour cette attaque.</p>",
+                    "deployBox": "Débordement (Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)\n\nChaque unité amie qui coûte 3 ou moins a +1/+0 et gagne Débordement tant qu’elle attaque une unité ennemie.",
+                    "deployBoxStyled": "<p><strong>Débordement </strong><i>(Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)</i></p><p>Chaque unité amie qui coûte <strong>3</strong> ou moins a <strong>+1/+0</strong> et gagne <strong>Débordement</strong> tant qu’elle attaque une unité ennemie.</p>",
+                    "epicAction": "Action Épique : si vous contrôlez au moins 5 ressources, déployez ce leader. (Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)",
+                    "epicActionStyled": "<p><strong>Action Épique :</strong> si vous contrôlez au moins 5 ressources, déployez ce leader. <i>(Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=7091323476\" class=\"card-tooltip\" data-card=\"7091323476\">Moff Gideon</a>",
+                    "cardId": "8664",
+                    "createdAt": "2024-06-26T19:20:13.744Z",
+                    "updatedAt": "2024-06-27T20:02:53.575Z",
+                    "publishedAt": "2024-06-27T20:02:42.980Z",
+                    "locale": "fr",
+                    "hyperspace": true,
+                    "unique": true,
+                    "showcase": false,
+                    "cardUid": "7091323476",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0202001"
+                  }
+                },
+                {
+                  "id": 8665,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Gefürchteter Kommandant",
+                    "cardNumber": 1,
+                    "cardCount": 2,
+                    "artist": "Eric Hibbeler",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Aktion [Erschöpfe]: Greife mit einer Einheit an, die 3 oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff +1/+0.",
+                    "textStyled": "<p><strong>Aktion [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Greife mit einer Einheit an, die <strong>3</strong> oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff <strong>+1/+0</strong>.</p>",
+                    "deployBox": "Überwältigen (Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)\n\nJede befreundete Einheit, die 3 oder weniger kostet, bekommt +1/+0 und erhält Überwältigen, solange sie eine feindliche Einheit angreift.",
+                    "deployBoxStyled": "<p><strong>Überwältigen</strong> <i>(Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)</i></p><p>Jede befreundete Einheit, die <strong>3</strong> oder weniger kostet, bekommt <strong>+1/+0</strong> und erhält <strong>Überwältigen</strong>, solange sie eine feindliche Einheit angreift.</p>",
+                    "epicAction": "Epische Aktion: Falls du 5 oder mehr Ressourcen kontrollierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)",
+                    "epicActionStyled": "<p><strong>Epische Aktion: </strong>Falls du 5&nbsp;oder mehr Ressourcen kontrollierst, rufe diesen Anführer. <i>(Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=7091323476\" class=\"card-tooltip\" data-card=\"7091323476\">Moff Gideon</a>",
+                    "cardId": "8664",
+                    "createdAt": "2024-06-26T19:06:00.146Z",
+                    "updatedAt": "2024-06-27T20:02:53.608Z",
+                    "publishedAt": "2024-06-27T20:02:37.145Z",
+                    "locale": "de",
+                    "hyperspace": true,
+                    "unique": true,
+                    "showcase": false,
+                    "cardUid": "7091323476",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0202001"
+                  }
+                }
+              ]
+            },
+            "artThumbnail": {
+              "data": {
+                "id": 4819,
+                "attributes": {
+                  "name": "0202001EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 300,
+                  "height": 100,
+                  "formats": {
+                    "xxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxsmall_0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284.png",
+                      "hash": "xxsmall_0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284",
+                      "mime": "image/png",
+                      "name": "xxsmall_0204001EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                      "path": null,
+                      "size": 36.78,
+                      "width": 200,
+                      "height": 67
+                    },
+                    "xxxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxxsmall_0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284.png",
+                      "hash": "xxxsmall_0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284",
+                      "mime": "image/png",
+                      "name": "xxxsmall_0204001EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                      "path": null,
+                      "size": 21.9,
+                      "width": 150,
+                      "height": 50
+                    },
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//thumbnail_0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284.png",
+                      "hash": "thumbnail_0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284",
+                      "mime": "image/png",
+                      "name": "thumbnail_0204001EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                      "path": null,
+                      "size": 54.14,
+                      "width": 250,
+                      "height": 83
+                    }
+                  },
+                  "hash": "0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 21.83,
+                  "url": "https://cdn.starwarsunlimited.com//0204001_EN_Moff_Gideon_Leader_Unit_Thumbnail_820e91d284.png",
+                  "previewUrl": null,
+                  "provider": "aws-s3",
+                  "provider_metadata": null,
+                  "createdAt": "2024-04-25T20:16:39.385Z",
+                  "updatedAt": "2024-06-26T19:09:48.394Z"
+                }
+              }
+            },
+            "artBack": {
+              "data": {
+                "id": 6568,
+                "attributes": {
+                  "name": "0202001EN_Moff_Gideon_Leader_Unit.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 300,
+                  "height": 418,
+                  "formats": {
+                    "card": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//card_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14.png",
+                      "hash": "card_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14",
+                      "mime": "image/png",
+                      "name": "card_0204001EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 243.28,
+                      "width": 287,
+                      "height": 400
+                    },
+                    "xsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xsmall_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14.png",
+                      "hash": "xsmall_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14",
+                      "mime": "image/png",
+                      "name": "xsmall_0204001EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 148.14,
+                      "width": 215,
+                      "height": 300
+                    },
+                    "xxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxsmall_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14.png",
+                      "hash": "xxsmall_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14",
+                      "mime": "image/png",
+                      "name": "xxsmall_0204001EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 72.49,
+                      "width": 144,
+                      "height": 200
+                    },
+                    "xxxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxxsmall_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14.png",
+                      "hash": "xxxsmall_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14",
+                      "mime": "image/png",
+                      "name": "xxxsmall_0204001EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 43.31,
+                      "width": 108,
+                      "height": 150
+                    },
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//thumbnail_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14.png",
+                      "hash": "thumbnail_0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14",
+                      "mime": "image/png",
+                      "name": "thumbnail_0204001EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 107.58,
+                      "width": 179,
+                      "height": 250
+                    }
+                  },
+                  "hash": "0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 68.75,
+                  "url": "https://cdn.starwarsunlimited.com//0204001_EN_Moff_Gideon_Leader_Unit_eaa06cdf14.png",
+                  "previewUrl": null,
+                  "provider": "aws-s3",
+                  "provider_metadata": null,
+                  "createdAt": "2024-04-25T20:51:57.366Z",
+                  "updatedAt": "2024-06-26T19:09:37.299Z"
+                }
+              }
+            },
+            "artFront": {
+              "data": {
+                "id": 5565,
+                "attributes": {
+                  "name": "0202001EN_Moff_Gideon_Leader.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 418,
+                  "height": 300,
+                  "formats": {
+                    "card": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//card_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d.png",
+                      "hash": "card_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d",
+                      "mime": "image/png",
+                      "name": "card_0204001EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 222.93,
+                      "width": 400,
+                      "height": 287
+                    },
+                    "xsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xsmall_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d.png",
+                      "hash": "xsmall_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d",
+                      "mime": "image/png",
+                      "name": "xsmall_0204001EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 135.74,
+                      "width": 300,
+                      "height": 215
+                    },
+                    "xxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxsmall_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d.png",
+                      "hash": "xxsmall_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d",
+                      "mime": "image/png",
+                      "name": "xxsmall_0204001EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 66.74,
+                      "width": 200,
+                      "height": 144
+                    },
+                    "xxxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxxsmall_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d.png",
+                      "hash": "xxxsmall_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d",
+                      "mime": "image/png",
+                      "name": "xxxsmall_0204001EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 40.07,
+                      "width": 150,
+                      "height": 108
+                    },
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//thumbnail_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d.png",
+                      "hash": "thumbnail_0204001_EN_Moff_Gideon_Leader_8f71b1bd8d",
+                      "mime": "image/png",
+                      "name": "thumbnail_0204001EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 98.7,
+                      "width": 250,
+                      "height": 179
+                    }
+                  },
+                  "hash": "0204001_EN_Moff_Gideon_Leader_8f71b1bd8d",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 66.02,
+                  "url": "https://cdn.starwarsunlimited.com//0204001_EN_Moff_Gideon_Leader_8f71b1bd8d.png",
+                  "previewUrl": null,
+                  "provider": "aws-s3",
+                  "provider_metadata": null,
+                  "createdAt": "2024-04-25T20:34:31.249Z",
+                  "updatedAt": "2024-06-26T19:09:30.335Z"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 8839,
+          "attributes": {
+            "title": "Moff Gideon",
+            "subtitle": "Formidable Commander",
+            "cardNumber": 269,
+            "cardCount": 262,
+            "artist": "Renaud Scheidt",
+            "artFrontHorizontal": true,
+            "artBackHorizontal": false,
+            "hasFoil": false,
+            "cost": 5,
+            "hp": 6,
+            "power": 3,
+            "text": "Action [exhaust]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
+            "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: </strong>Attack with a unit that costs <strong>3</strong> or less. If it's attacking a unit, it gets <strong>+1/+0</strong> for this attack.</p>",
+            "deployBox": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\n\nEach friendly unit that costs 3 or less gets +1/+0 and gains Overwhelm while attacking an enemy unit.",
+            "deployBoxStyled": "<p><strong>Overwhelm</strong> <i>(When attacking an enemy unit, deal excess damage to the opponent's base.)</i></p><p>Each friendly unit that costs <strong>3</strong> or less gets <strong>+1/+0</strong> and gains <strong>Overwhelm</strong> while attacking an enemy unit.</p>",
+            "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
+            "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
+            "linkHtml": "<a href=\"/cards?cid=1680836362\" class=\"card-tooltip\" data-card=\"1680836362\">Moff Gideon</a>",
+            "cardId": null,
+            "createdAt": "2024-06-27T00:30:41.282Z",
+            "updatedAt": "2024-06-27T18:57:34.600Z",
+            "publishedAt": "2024-06-27T00:00:00.000Z",
+            "locale": "en",
+            "hyperspace": false,
+            "unique": true,
+            "showcase": true,
+            "cardUid": "1680836362",
+            "rules": null,
+            "rulesStyled": "",
+            "serialCode": "0203269",
+            "variantOf": {
+              "data": {
+                "id": 2754,
+                "attributes": {
+                  "title": "Moff Gideon",
+                  "subtitle": "Formidable Commander",
+                  "cardNumber": 7,
+                  "cardCount": 262,
+                  "artist": "Eric Hibbeler",
+                  "artFrontHorizontal": true,
+                  "artBackHorizontal": null,
+                  "hasFoil": false,
+                  "cost": 5,
+                  "hp": 6,
+                  "power": 3,
+                  "text": "Action [exhaust]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.",
+                  "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: </strong>Attack with a unit that costs <strong>3</strong> or less. If it's attacking a unit, it gets <strong>+1/+0</strong> for this attack.</p>",
+                  "deployBox": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\n\nEach friendly unit that costs 3 or less gets +1/+0 and gains Overwhelm while attacking an enemy unit.",
+                  "deployBoxStyled": "<p><strong>Overwhelm</strong> <i>(When attacking an enemy unit, deal excess damage to the opponent's base.)</i></p><p>Each friendly unit that costs <strong>3</strong> or less gets <strong>+1/+0</strong> and gains <strong>Overwhelm</strong> while attacking an enemy unit.</p>",
+                  "epicAction": "Epic Action: If you control 5 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
+                  "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
+                  "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                  "cardId": "8839",
+                  "createdAt": "2024-03-22T15:22:12.252Z",
+                  "updatedAt": "2024-06-26T23:43:21.841Z",
+                  "publishedAt": "2024-04-03T14:57:50.403Z",
+                  "locale": "en",
+                  "hyperspace": false,
+                  "unique": true,
+                  "showcase": false,
+                  "cardUid": "2503039837",
+                  "rules": null,
+                  "rulesStyled": "",
+                  "serialCode": "0201007",
+                  "artFront": {
+                    "data": {
+                      "id": 4155,
+                      "attributes": {
+                        "name": "0201_007_EN_Moff_Gideon_Leader.png",
+                        "alternativeText": "Moff_Gideon_Leader",
+                        "caption": null,
+                        "width": 418,
+                        "height": 300,
+                        "formats": {
+                          "card": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//card_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "card_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "card_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 194.88,
+                            "width": 400,
+                            "height": 287
+                          },
+                          "xsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "xsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "xsmall_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 118.89,
+                            "width": 300,
+                            "height": 215
+                          },
+                          "xxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "xxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "xxsmall_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 58.47,
+                            "width": 200,
+                            "height": 144
+                          },
+                          "xxxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "xxxsmall_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "xxxsmall_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 35.22,
+                            "width": 150,
+                            "height": 108
+                          },
+                          "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//thumbnail_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                            "hash": "thumbnail_SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                            "mime": "image/png",
+                            "name": "thumbnail_SWH02_007_Moff_Gideon_Leader.png",
+                            "path": null,
+                            "size": 86.39,
+                            "width": 250,
+                            "height": 179
+                          }
+                        },
+                        "hash": "SWH_02_007_Moff_Gideon_Leader_39b6fcaae9",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 60.34,
+                        "url": "https://cdn.starwarsunlimited.com//SWH_02_007_Moff_Gideon_Leader_39b6fcaae9.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2024-01-30T16:37:50.110Z",
+                        "updatedAt": "2024-03-22T18:29:07.461Z"
+                      }
+                    }
+                  },
+                  "artBack": {
+                    "data": {
+                      "id": 4156,
+                      "attributes": {
+                        "name": "0201_007_EN_Moff_Gideon_Leader_unit.png",
+                        "alternativeText": "Moff_Gideon_Leader_unit",
+                        "caption": null,
+                        "width": 300,
+                        "height": 418,
+                        "formats": {
+                          "card": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//card_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "card_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "card_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 210.9,
+                            "width": 287,
+                            "height": 400
+                          },
+                          "xsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "xsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "xsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 127.13,
+                            "width": 215,
+                            "height": 300
+                          },
+                          "xxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "xxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "xxsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 62.01,
+                            "width": 144,
+                            "height": 200
+                          },
+                          "xxxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "xxxsmall_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "xxxsmall_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 36.92,
+                            "width": 108,
+                            "height": 150
+                          },
+                          "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//thumbnail_SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                            "hash": "thumbnail_SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                            "mime": "image/png",
+                            "name": "thumbnail_SWH02_007_Moff_Gideon_Leader_unit.png",
+                            "path": null,
+                            "size": 92.26,
+                            "width": 179,
+                            "height": 250
+                          }
+                        },
+                        "hash": "SWH_02_007_Moff_Gideon_Leader_unit_4484318969",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 62.22,
+                        "url": "https://cdn.starwarsunlimited.com//SWH_02_007_Moff_Gideon_Leader_unit_4484318969.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2024-01-30T16:37:50.136Z",
+                        "updatedAt": "2024-03-22T18:29:15.760Z"
+                      }
+                    }
+                  },
+                  "artThumbnail": {
+                    "data": {
+                      "id": 4393,
+                      "attributes": {
+                        "name": "0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 300,
+                        "height": 100,
+                        "formats": {
+                          "xxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                            "hash": "xxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                            "mime": "image/png",
+                            "name": "xxsmall_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                            "path": null,
+                            "size": 31.61,
+                            "width": 200,
+                            "height": 67
+                          },
+                          "xxxsmall": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//xxxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                            "hash": "xxxsmall_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                            "mime": "image/png",
+                            "name": "xxxsmall_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                            "path": null,
+                            "size": 19.07,
+                            "width": 150,
+                            "height": 50
+                          },
+                          "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://cdn.starwarsunlimited.com//thumbnail_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                            "hash": "thumbnail_0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                            "mime": "image/png",
+                            "name": "thumbnail_0201007EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                            "path": null,
+                            "size": 46.19,
+                            "width": 250,
+                            "height": 83
+                          }
+                        },
+                        "hash": "0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 18.9,
+                        "url": "https://cdn.starwarsunlimited.com//0201007_EN_Moff_Gideon_Leader_Unit_Thumbnail_b444a1ad92.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2024-03-29T15:18:38.703Z",
+                        "updatedAt": "2024-03-29T15:18:38.703Z"
+                      }
+                    }
+                  },
+                  "localizations": {
+                    "data": [
+                      {
+                        "id": 2766,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Comandante Formidabile",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Azione [Esaurire]: Attacca con un’unità di costo pari o inferiore a 3. Se sta attaccando un’unità, riceve +1/+0 per questo attacco.",
+                          "textStyled": "<p><strong>Azione [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Attacca con un’unità di costo pari o inferiore a <strong>3</strong>. Se sta attaccando un’unità, riceve <strong>+1/+0</strong> per questo attacco.</p>",
+                          "deployBox": "Sopraffazione (Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)\n\nMentre un’unità amica di costo pari o inferiore a 3 attacca un’unità nemica, riceve +1/+0 e ottiene Sopraffazione.",
+                          "deployBoxStyled": "<p><strong>Sopraffazione</strong> <i>(Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)</i></p><p>Mentre un’unità amica di costo pari o inferiore a <strong>3</strong> attacca un’unità nemica, riceve <strong>+1/+0</strong> e ottiene <strong>Sopraffazione</strong>.</p>",
+                          "epicAction": "Azione Epica: Se controlli 5 o più risorse, schiera questo leader (giralo, approntalo e spostalo nell’arena terrestre).",
+                          "epicActionStyled": "<p><strong>Azione Epica:</strong> Se controlli 5 o più risorse, schiera questo leader <i>(giralo, approntalo e spostalo nell’arena terrestre).</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T21:10:01.437Z",
+                          "updatedAt": "2024-06-26T23:43:21.782Z",
+                          "publishedAt": "2024-04-03T14:58:18.752Z",
+                          "locale": "it",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      },
+                      {
+                        "id": 2765,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Comandante Formidable",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Acción [Agota]: Ataca con una unidad que cueste 3 o menos. Si está atacando a una unidad, recibe +1/+0 para este ataque.",
+                          "textStyled": "<p><strong>Acción [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Ataca con una unidad que cueste <strong>3</strong> o menos. Si está atacando a una unidad, recibe <strong>+1/+0</strong> para este ataque.</p>",
+                          "deployBox": "Formidable (Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)\n\nCada unidad aliada que cueste 3 o menos recibe +1/+0 y gana Formidable mientras esté atacando a una unidad enemiga.",
+                          "deployBoxStyled": "<p><strong>Formidable</strong> <i>(Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)</i></p><p>Cada unidad aliada que cueste <strong>3</strong> o menos recibe <strong>+1/+0</strong> y gana <strong>Formidable</strong> mientras esté atacando a una unidad enemiga.</p>",
+                          "epicAction": "Acción épica: Si controlas al menos 5 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)",
+                          "epicActionStyled": "<p><strong>Acción épica:</strong><i> </i>Si controlas al menos 5 recursos, despliega este líder.<i> (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T21:03:37.173Z",
+                          "updatedAt": "2024-06-26T23:43:21.669Z",
+                          "publishedAt": "2024-06-26T23:43:21.663Z",
+                          "locale": "es",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      },
+                      {
+                        "id": 2764,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Redoutable Commandant",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Action [Inclinez] : attaquez avec une unité qui coûte 3 ou moins. Si elle attaque une unité, elle a +1/+0 pour cette attaque.",
+                          "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">] : </strong>attaquez avec une unité qui coûte <strong>3</strong> ou moins. Si elle attaque une unité, elle a <strong>+1/+0</strong> pour cette attaque.</p>",
+                          "deployBox": "Débordement (Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)\n\nChaque unité amie qui coûte 3 ou moins a +1/+0 et gagne Débordement tant qu’elle attaque une unité ennemie.",
+                          "deployBoxStyled": "<p><strong>Débordement </strong><i>(Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)</i></p><p>Chaque unité amie qui coûte <strong>3</strong> ou moins a <strong>+1/+0</strong> et gagne <strong>Débordement</strong> tant qu’elle attaque une unité ennemie.</p>",
+                          "epicAction": "Action Épique : si vous contrôlez au moins 5 ressources, déployez ce leader. (Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)",
+                          "epicActionStyled": "<p><strong>Action Épique :</strong> si vous contrôlez au moins 5 ressources, déployez ce leader. <i>(Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T19:45:45.384Z",
+                          "updatedAt": "2024-06-26T23:43:21.798Z",
+                          "publishedAt": "2024-04-03T14:58:02.264Z",
+                          "locale": "fr",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      },
+                      {
+                        "id": 2763,
+                        "attributes": {
+                          "title": "Moff Gideon",
+                          "subtitle": "Gefürchteter Kommandant",
+                          "cardNumber": 7,
+                          "cardCount": 262,
+                          "artist": "Eric Hibbeler",
+                          "artFrontHorizontal": true,
+                          "artBackHorizontal": null,
+                          "hasFoil": false,
+                          "cost": 5,
+                          "hp": 6,
+                          "power": 3,
+                          "text": "Aktion [Erschöpfe]: Greife mit einer Einheit an, die 3 oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff +1/+0.",
+                          "textStyled": "<p><strong>Aktion [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Greife mit einer Einheit an, die <strong>3</strong> oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff <strong>+1/+0</strong>.</p>",
+                          "deployBox": "Überwältigen (Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)\n\nJede befreundete Einheit, die 3 oder weniger kostet, bekommt +1/+0 und erhält Überwältigen, solange sie eine feindliche Einheit angreift.",
+                          "deployBoxStyled": "<p><strong>Überwältigen</strong> <i>(Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)</i></p><p>Jede befreundete Einheit, die <strong>3</strong> oder weniger kostet, bekommt <strong>+1/+0</strong> und erhält <strong>Überwältigen</strong>, solange sie eine feindliche Einheit angreift.</p>",
+                          "epicAction": "Epische Aktion: Falls du 5 oder mehr Ressourcen kontrollierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)",
+                          "epicActionStyled": "<p><strong>Epische Aktion: </strong>Falls du 5&nbsp;oder mehr Ressourcen kontrollierst, rufe diesen Anführer. <i>(Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)</i></p>",
+                          "linkHtml": "<a href=\"/cards?cid=2503039837\" class=\"card-tooltip\" data-card=\"2503039837\">Moff Gideon</a>",
+                          "cardId": "2754",
+                          "createdAt": "2024-03-29T19:40:45.785Z",
+                          "updatedAt": "2024-06-26T23:43:21.819Z",
+                          "publishedAt": "2024-04-03T14:57:55.418Z",
+                          "locale": "de",
+                          "hyperspace": false,
+                          "unique": true,
+                          "showcase": false,
+                          "cardUid": "2503039837",
+                          "rules": null,
+                          "rulesStyled": "",
+                          "serialCode": "0201007"
+                        }
+                      }
+                    ]
+                  },
+                  "aspects": {
+                    "data": [
+                      {
+                        "id": 7,
+                        "attributes": {
+                          "name": "Command",
+                          "description": "<p>Accelerate your resources and call upon lots of units or strengthen the units you already have in play. This is the aspect of choice for players who want to overwhelm their opponents with a massive board presence. &nbsp;</p>",
+                          "color": "#0b992d",
+                          "createdAt": "2023-08-10T21:06:20.704Z",
+                          "updatedAt": "2024-01-02T18:24:37.502Z",
+                          "publishedAt": "2023-11-15T20:01:18.812Z",
+                          "locale": "en",
+                          "englishName": "Command"
+                        }
+                      },
+                      {
+                        "id": 27,
+                        "attributes": {
+                          "name": "Villainy",
+                          "description": "<p>Battle for ultimate power with cards that feature the antagonists of the <i>Star Wars</i> series. This aspect is perfect for players who want to command huge armies or wield powerful destructive effects. Similar to Heroism, this aspect is often paired with another aspect on a card.&nbsp;</p>",
+                          "color": "#000000",
+                          "createdAt": "2023-08-10T21:18:54.590Z",
+                          "updatedAt": "2024-01-02T18:25:57.609Z",
+                          "publishedAt": "2023-11-15T20:02:14.861Z",
+                          "locale": "en",
+                          "englishName": "Villainy"
+                        }
+                      }
+                    ]
+                  },
+                  "aspectDuplicates": { "data": [] },
+                  "type": {
+                    "data": {
+                      "id": 4,
+                      "attributes": {
+                        "name": "Leader",
+                        "description": "",
+                        "value": "Leader",
+                        "createdAt": "2023-08-14T21:36:36.932Z",
+                        "updatedAt": "2024-03-05T17:11:46.417Z",
+                        "publishedAt": "2023-11-15T17:30:41.305Z",
+                        "locale": "en",
+                        "sortValue": 1
+                      }
+                    }
+                  },
+                  "type2": {
+                    "data": {
+                      "id": 6,
+                      "attributes": {
+                        "name": "Leader Unit",
+                        "description": "",
+                        "value": "Leader Unit",
+                        "createdAt": "2023-08-14T21:41:58.575Z",
+                        "updatedAt": "2024-03-05T17:12:16.062Z",
+                        "publishedAt": "2023-11-15T17:30:47.748Z",
+                        "locale": "en",
+                        "sortValue": 1
+                      }
+                    }
+                  },
+                  "traits": {
+                    "data": [
+                      {
+                        "id": 7,
+                        "attributes": {
+                          "name": "Imperial",
+                          "description": "",
+                          "createdAt": "2023-08-15T14:38:15.844Z",
+                          "updatedAt": "2023-11-15T23:58:36.411Z",
+                          "publishedAt": "2023-11-15T23:58:36.407Z",
+                          "locale": "en"
+                        }
+                      },
+                      {
+                        "id": 12,
+                        "attributes": {
+                          "name": "Official",
+                          "description": "",
+                          "createdAt": "2023-08-15T14:38:40.778Z",
+                          "updatedAt": "2023-11-16T00:00:09.096Z",
+                          "publishedAt": "2023-11-16T00:00:09.091Z",
+                          "locale": "en"
+                        }
+                      }
+                    ]
+                  },
+                  "arenas": {
+                    "data": [
+                      {
+                        "id": 2,
+                        "attributes": {
+                          "name": "Ground",
+                          "description": null,
+                          "createdAt": "2023-08-15T14:32:07.804Z",
+                          "updatedAt": "2023-08-18T21:37:34.527Z",
+                          "publishedAt": "2023-08-18T21:37:34.522Z",
+                          "locale": "en"
+                        }
+                      }
+                    ]
+                  },
+                  "keywords": {
+                    "data": [
+                      {
+                        "id": 27,
+                        "attributes": {
+                          "name": "Overwhelm",
+                          "description": "",
+                          "createdAt": "2023-11-28T17:09:53.732Z",
+                          "updatedAt": "2023-11-28T17:10:23.307Z",
+                          "publishedAt": "2023-11-28T17:09:54.638Z",
+                          "locale": "en"
+                        }
+                      }
+                    ]
+                  },
+                  "rarity": {
+                    "data": {
+                      "id": 22,
+                      "attributes": {
+                        "name": "Special",
+                        "character": "S",
+                        "color": "#000000",
+                        "createdAt": "2023-08-14T21:33:28.942Z",
+                        "updatedAt": "2024-04-25T14:06:08.982Z",
+                        "publishedAt": "2023-11-15T20:15:43.619Z",
+                        "locale": "en",
+                        "englishName": "Special",
+                        "sortValue": 1
+                      }
+                    }
+                  },
+                  "expansion": {
+                    "data": {
+                      "id": 8,
+                      "attributes": {
+                        "name": "Shadows of the Galaxy",
+                        "description": "",
+                        "code": "SHD",
+                        "createdAt": "2024-03-22T15:04:51.835Z",
+                        "updatedAt": "2024-04-25T14:07:34.348Z",
+                        "publishedAt": "2024-04-03T14:50:17.860Z",
+                        "locale": "en",
+                        "sortValue": 2
+                      }
+                    }
+                  },
+                  "variantTypes": { "data": [] }
+                }
+              }
+            },
+            "variantTypes": { "data": [] },
+            "expansion": {
+              "data": {
+                "id": 8,
+                "attributes": {
+                  "name": "Shadows of the Galaxy",
+                  "description": "",
+                  "code": "SHD",
+                  "createdAt": "2024-03-22T15:04:51.835Z",
+                  "updatedAt": "2024-04-25T14:07:34.348Z",
+                  "publishedAt": "2024-04-03T14:50:17.860Z",
+                  "locale": "en",
+                  "sortValue": 2
+                }
+              }
+            },
+            "rarity": {
+              "data": {
+                "id": 22,
+                "attributes": {
+                  "name": "Special",
+                  "character": "S",
+                  "color": "#000000",
+                  "createdAt": "2023-08-14T21:33:28.942Z",
+                  "updatedAt": "2024-04-25T14:06:08.982Z",
+                  "publishedAt": "2023-11-15T20:15:43.619Z",
+                  "locale": "en",
+                  "englishName": "Special",
+                  "sortValue": 1
+                }
+              }
+            },
+            "keywords": {
+              "data": [
+                {
+                  "id": 27,
+                  "attributes": {
+                    "name": "Overwhelm",
+                    "description": "",
+                    "createdAt": "2023-11-28T17:09:53.732Z",
+                    "updatedAt": "2023-11-28T17:10:23.307Z",
+                    "publishedAt": "2023-11-28T17:09:54.638Z",
+                    "locale": "en"
+                  }
+                }
+              ]
+            },
+            "arenas": {
+              "data": [
+                {
+                  "id": 2,
+                  "attributes": {
+                    "name": "Ground",
+                    "description": null,
+                    "createdAt": "2023-08-15T14:32:07.804Z",
+                    "updatedAt": "2023-08-18T21:37:34.527Z",
+                    "publishedAt": "2023-08-18T21:37:34.522Z",
+                    "locale": "en"
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "data": [
+                {
+                  "id": 7,
+                  "attributes": {
+                    "name": "Imperial",
+                    "description": "",
+                    "createdAt": "2023-08-15T14:38:15.844Z",
+                    "updatedAt": "2023-11-15T23:58:36.411Z",
+                    "publishedAt": "2023-11-15T23:58:36.407Z",
+                    "locale": "en"
+                  }
+                },
+                {
+                  "id": 12,
+                  "attributes": {
+                    "name": "Official",
+                    "description": "",
+                    "createdAt": "2023-08-15T14:38:40.778Z",
+                    "updatedAt": "2023-11-16T00:00:09.096Z",
+                    "publishedAt": "2023-11-16T00:00:09.091Z",
+                    "locale": "en"
+                  }
+                }
+              ]
+            },
+            "type2": {
+              "data": {
+                "id": 6,
+                "attributes": {
+                  "name": "Leader Unit",
+                  "description": "",
+                  "value": "Leader Unit",
+                  "createdAt": "2023-08-14T21:41:58.575Z",
+                  "updatedAt": "2024-03-05T17:12:16.062Z",
+                  "publishedAt": "2023-11-15T17:30:47.748Z",
+                  "locale": "en",
+                  "sortValue": 1
+                }
+              }
+            },
+            "type": {
+              "data": {
+                "id": 4,
+                "attributes": {
+                  "name": "Leader",
+                  "description": "",
+                  "value": "Leader",
+                  "createdAt": "2023-08-14T21:36:36.932Z",
+                  "updatedAt": "2024-03-05T17:11:46.417Z",
+                  "publishedAt": "2023-11-15T17:30:41.305Z",
+                  "locale": "en",
+                  "sortValue": 1
+                }
+              }
+            },
+            "aspectDuplicates": { "data": [] },
+            "aspects": {
+              "data": [
+                {
+                  "id": 7,
+                  "attributes": {
+                    "name": "Command",
+                    "description": "<p>Accelerate your resources and call upon lots of units or strengthen the units you already have in play. This is the aspect of choice for players who want to overwhelm their opponents with a massive board presence. &nbsp;</p>",
+                    "color": "#0b992d",
+                    "createdAt": "2023-08-10T21:06:20.704Z",
+                    "updatedAt": "2024-01-02T18:24:37.502Z",
+                    "publishedAt": "2023-11-15T20:01:18.812Z",
+                    "locale": "en",
+                    "englishName": "Command"
+                  }
+                },
+                {
+                  "id": 27,
+                  "attributes": {
+                    "name": "Villainy",
+                    "description": "<p>Battle for ultimate power with cards that feature the antagonists of the <i>Star Wars</i> series. This aspect is perfect for players who want to command huge armies or wield powerful destructive effects. Similar to Heroism, this aspect is often paired with another aspect on a card.&nbsp;</p>",
+                    "color": "#000000",
+                    "createdAt": "2023-08-10T21:18:54.590Z",
+                    "updatedAt": "2024-01-02T18:25:57.609Z",
+                    "publishedAt": "2023-11-15T20:02:14.861Z",
+                    "locale": "en",
+                    "englishName": "Villainy"
+                  }
+                }
+              ]
+            },
+            "localizations": {
+              "data": [
+                {
+                  "id": 8843,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Comandante Formidabile",
+                    "cardNumber": 269,
+                    "cardCount": 262,
+                    "artist": "Renaud Scheidt",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Azione [Esaurire]: Attacca con un’unità di costo pari o inferiore a 3. Se sta attaccando un’unità, riceve +1/+0 per questo attacco.",
+                    "textStyled": "<p><strong>Azione [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Attacca con un’unità di costo pari o inferiore a <strong>3</strong>. Se sta attaccando un’unità, riceve <strong>+1/+0</strong> per questo attacco.</p>",
+                    "deployBox": "Sopraffazione (Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)\n\nMentre un’unità amica di costo pari o inferiore a 3 attacca un’unità nemica, riceve +1/+0 e ottiene Sopraffazione.",
+                    "deployBoxStyled": "<p><strong>Sopraffazione</strong> <i>(Quando attacca un’unità nemica, infligge i danni in eccesso alla base avversaria.)</i></p><p>Mentre un’unità amica di costo pari o inferiore a <strong>3</strong> attacca un’unità nemica, riceve <strong>+1/+0</strong> e ottiene <strong>Sopraffazione</strong>.</p>",
+                    "epicAction": "Azione Epica: Se controlli 5 o più risorse, schiera questo leader (giralo, approntalo e spostalo nell’arena terrestre).",
+                    "epicActionStyled": "<p><strong>Azione Epica:</strong> Se controlli 5 o più risorse, schiera questo leader <i>(giralo, approntalo e spostalo nell’arena terrestre).</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=1680836362\" class=\"card-tooltip\" data-card=\"1680836362\">Moff Gideon</a>",
+                    "cardId": "8839",
+                    "createdAt": "2024-06-27T01:16:10.017Z",
+                    "updatedAt": "2024-06-27T18:57:34.802Z",
+                    "publishedAt": "2024-06-27T00:00:00.000Z",
+                    "locale": "it",
+                    "hyperspace": false,
+                    "unique": true,
+                    "showcase": true,
+                    "cardUid": "1680836362",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0203269"
+                  }
+                },
+                {
+                  "id": 8842,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Comandante Formidable",
+                    "cardNumber": 269,
+                    "cardCount": 262,
+                    "artist": "Renaud Scheidt",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Acción [Agota]: Ataca con una unidad que cueste 3 o menos. Si está atacando a una unidad, recibe +1/+0 para este ataque.",
+                    "textStyled": "<p><strong>Acción [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Ataca con una unidad que cueste <strong>3</strong> o menos. Si está atacando a una unidad, recibe <strong>+1/+0</strong> para este ataque.</p>",
+                    "deployBox": "Formidable (Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)\n\nCada unidad aliada que cueste 3 o menos recibe +1/+0 y gana Formidable mientras esté atacando a una unidad enemiga.",
+                    "deployBoxStyled": "<p><strong>Formidable</strong> <i>(Cuando ataque a una unidad enemiga, el daño sobrante se inflige a la base del adversario.)</i></p><p>Cada unidad aliada que cueste <strong>3</strong> o menos recibe <strong>+1/+0</strong> y gana <strong>Formidable</strong> mientras esté atacando a una unidad enemiga.</p>",
+                    "epicAction": "Acción épica: Si controlas al menos 5 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)",
+                    "epicActionStyled": "<p><strong>Acción épica:</strong><i> </i>Si controlas al menos 5 recursos, despliega este líder.<i> (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.)</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=1680836362\" class=\"card-tooltip\" data-card=\"1680836362\">Moff Gideon</a>",
+                    "cardId": "8839",
+                    "createdAt": "2024-06-27T01:12:19.399Z",
+                    "updatedAt": "2024-06-27T18:57:35.014Z",
+                    "publishedAt": "2024-06-27T00:00:00.000Z",
+                    "locale": "es",
+                    "hyperspace": false,
+                    "unique": true,
+                    "showcase": true,
+                    "cardUid": "1680836362",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0203269"
+                  }
+                },
+                {
+                  "id": 8841,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Redoutable Commandant",
+                    "cardNumber": 269,
+                    "cardCount": 262,
+                    "artist": "Renaud Scheidt",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Action [Inclinez] : attaquez avec une unité qui coûte 3 ou moins. Si elle attaque une unité, elle a +1/+0 pour cette attaque.",
+                    "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">] : </strong>attaquez avec une unité qui coûte <strong>3</strong> ou moins. Si elle attaque une unité, elle a <strong>+1/+0</strong> pour cette attaque.</p>",
+                    "deployBox": "Débordement (Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)\n\nChaque unité amie qui coûte 3 ou moins a +1/+0 et gagne Débordement tant qu’elle attaque une unité ennemie.",
+                    "deployBoxStyled": "<p><strong>Débordement </strong><i>(Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)</i></p><p>Chaque unité amie qui coûte <strong>3</strong> ou moins a <strong>+1/+0</strong> et gagne <strong>Débordement</strong> tant qu’elle attaque une unité ennemie.</p>",
+                    "epicAction": "Action Épique : si vous contrôlez au moins 5 ressources, déployez ce leader. (Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)",
+                    "epicActionStyled": "<p><strong>Action Épique :</strong> si vous contrôlez au moins 5 ressources, déployez ce leader. <i>(Retournez-le, redressez-le et déplacez-le dans l’arène terrestre.)</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=1680836362\" class=\"card-tooltip\" data-card=\"1680836362\">Moff Gideon</a>",
+                    "cardId": "8839",
+                    "createdAt": "2024-06-27T01:08:55.584Z",
+                    "updatedAt": "2024-06-27T18:57:35.248Z",
+                    "publishedAt": "2024-06-27T00:00:00.000Z",
+                    "locale": "fr",
+                    "hyperspace": false,
+                    "unique": true,
+                    "showcase": true,
+                    "cardUid": "1680836362",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0203269"
+                  }
+                },
+                {
+                  "id": 8840,
+                  "attributes": {
+                    "title": "Moff Gideon",
+                    "subtitle": "Gefürchteter Kommandant",
+                    "cardNumber": 269,
+                    "cardCount": 262,
+                    "artist": "Renaud Scheidt",
+                    "artFrontHorizontal": true,
+                    "artBackHorizontal": false,
+                    "hasFoil": false,
+                    "cost": 5,
+                    "hp": 6,
+                    "power": 3,
+                    "text": "Aktion [Erschöpfe]: Greife mit einer Einheit an, die 3 oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff +1/+0.",
+                    "textStyled": "<p><strong>Aktion [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]:</strong> Greife mit einer Einheit an, die <strong>3</strong> oder weniger kostet. Falls sie eine Einheit angreift, bekommt sie für diesen Angriff <strong>+1/+0</strong>.</p>",
+                    "deployBox": "Überwältigen (Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)\n\nJede befreundete Einheit, die 3 oder weniger kostet, bekommt +1/+0 und erhält Überwältigen, solange sie eine feindliche Einheit angreift.",
+                    "deployBoxStyled": "<p><strong>Überwältigen</strong> <i>(Wenn diese Einheit eine feindliche Einheit angreift, füge überschüssigen Schaden der gegnerischen Basis zu.)</i></p><p>Jede befreundete Einheit, die <strong>3</strong> oder weniger kostet, bekommt <strong>+1/+0</strong> und erhält <strong>Überwältigen</strong>, solange sie eine feindliche Einheit angreift.</p>",
+                    "epicAction": "Epische Aktion: Falls du 5 oder mehr Ressourcen kontrollierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)",
+                    "epicActionStyled": "<p><strong>Epische Aktion: </strong>Falls du 5&nbsp;oder mehr Ressourcen kontrollierst, rufe diesen Anführer. <i>(Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)</i></p>",
+                    "linkHtml": "<a href=\"/cards?cid=1680836362\" class=\"card-tooltip\" data-card=\"1680836362\">Moff Gideon</a>",
+                    "cardId": "8839",
+                    "createdAt": "2024-06-27T01:06:07.644Z",
+                    "updatedAt": "2024-06-27T18:57:35.460Z",
+                    "publishedAt": "2024-06-27T00:00:00.000Z",
+                    "locale": "de",
+                    "hyperspace": false,
+                    "unique": true,
+                    "showcase": true,
+                    "cardUid": "1680836362",
+                    "rules": null,
+                    "rulesStyled": "",
+                    "serialCode": "0203269"
+                  }
+                }
+              ]
+            },
+            "artThumbnail": {
+              "data": {
+                "id": 4599,
+                "attributes": {
+                  "name": "0203269EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 300,
+                  "height": 100,
+                  "formats": {
+                    "xxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxsmall_0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410.png",
+                      "hash": "xxsmall_0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410",
+                      "mime": "image/png",
+                      "name": "xxsmall_0203269EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                      "path": null,
+                      "size": 30.71,
+                      "width": 200,
+                      "height": 67
+                    },
+                    "xxxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxxsmall_0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410.png",
+                      "hash": "xxxsmall_0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410",
+                      "mime": "image/png",
+                      "name": "xxxsmall_0203269EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                      "path": null,
+                      "size": 18.37,
+                      "width": 150,
+                      "height": 50
+                    },
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//thumbnail_0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410.png",
+                      "hash": "thumbnail_0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410",
+                      "mime": "image/png",
+                      "name": "thumbnail_0203269EN_Moff_Gideon_Leader_Unit_Thumbnail.png",
+                      "path": null,
+                      "size": 45.26,
+                      "width": 250,
+                      "height": 83
+                    }
+                  },
+                  "hash": "0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 19.5,
+                  "url": "https://cdn.starwarsunlimited.com//0203269_EN_Moff_Gideon_Leader_Unit_Thumbnail_a1c9921410.png",
+                  "previewUrl": null,
+                  "provider": "aws-s3",
+                  "provider_metadata": null,
+                  "createdAt": "2024-04-25T20:14:05.756Z",
+                  "updatedAt": "2024-04-25T20:14:05.756Z"
+                }
+              }
+            },
+            "artBack": {
+              "data": {
+                "id": 6538,
+                "attributes": {
+                  "name": "0203269EN_Moff_Gideon_Leader_Unit.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 300,
+                  "height": 419,
+                  "formats": {
+                    "card": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//card_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9.png",
+                      "hash": "card_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9",
+                      "mime": "image/png",
+                      "name": "card_0203269EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 208.97,
+                      "width": 286,
+                      "height": 400
+                    },
+                    "xsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xsmall_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9.png",
+                      "hash": "xsmall_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9",
+                      "mime": "image/png",
+                      "name": "xsmall_0203269EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 127.12,
+                      "width": 215,
+                      "height": 300
+                    },
+                    "xxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxsmall_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9.png",
+                      "hash": "xxsmall_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9",
+                      "mime": "image/png",
+                      "name": "xxsmall_0203269EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 62.22,
+                      "width": 143,
+                      "height": 200
+                    },
+                    "xxxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxxsmall_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9.png",
+                      "hash": "xxxsmall_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9",
+                      "mime": "image/png",
+                      "name": "xxxsmall_0203269EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 37.45,
+                      "width": 107,
+                      "height": 150
+                    },
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//thumbnail_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9.png",
+                      "hash": "thumbnail_0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9",
+                      "mime": "image/png",
+                      "name": "thumbnail_0203269EN_Moff_Gideon_Leader_Unit.png",
+                      "path": null,
+                      "size": 92.05,
+                      "width": 179,
+                      "height": 250
+                    }
+                  },
+                  "hash": "0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 58.61,
+                  "url": "https://cdn.starwarsunlimited.com//0203269_EN_Moff_Gideon_Leader_Unit_80e0cf5cd9.png",
+                  "previewUrl": null,
+                  "provider": "aws-s3",
+                  "provider_metadata": null,
+                  "createdAt": "2024-04-25T20:51:26.235Z",
+                  "updatedAt": "2024-04-25T20:51:26.235Z"
+                }
+              }
+            },
+            "artFront": {
+              "data": {
+                "id": 6566,
+                "attributes": {
+                  "name": "0203269EN_Moff_Gideon_Leader.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 419,
+                  "height": 300,
+                  "formats": {
+                    "card": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//card_0203269_EN_Moff_Gideon_Leader_3646463845.png",
+                      "hash": "card_0203269_EN_Moff_Gideon_Leader_3646463845",
+                      "mime": "image/png",
+                      "name": "card_0203269EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 219.86,
+                      "width": 400,
+                      "height": 286
+                    },
+                    "xsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xsmall_0203269_EN_Moff_Gideon_Leader_3646463845.png",
+                      "hash": "xsmall_0203269_EN_Moff_Gideon_Leader_3646463845",
+                      "mime": "image/png",
+                      "name": "xsmall_0203269EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 133.54,
+                      "width": 300,
+                      "height": 215
+                    },
+                    "xxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxsmall_0203269_EN_Moff_Gideon_Leader_3646463845.png",
+                      "hash": "xxsmall_0203269_EN_Moff_Gideon_Leader_3646463845",
+                      "mime": "image/png",
+                      "name": "xxsmall_0203269EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 65.6,
+                      "width": 200,
+                      "height": 143
+                    },
+                    "xxxsmall": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//xxxsmall_0203269_EN_Moff_Gideon_Leader_3646463845.png",
+                      "hash": "xxxsmall_0203269_EN_Moff_Gideon_Leader_3646463845",
+                      "mime": "image/png",
+                      "name": "xxxsmall_0203269EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 39.78,
+                      "width": 150,
+                      "height": 107
+                    },
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "https://cdn.starwarsunlimited.com//thumbnail_0203269_EN_Moff_Gideon_Leader_3646463845.png",
+                      "hash": "thumbnail_0203269_EN_Moff_Gideon_Leader_3646463845",
+                      "mime": "image/png",
+                      "name": "thumbnail_0203269EN_Moff_Gideon_Leader.png",
+                      "path": null,
+                      "size": 97.01,
+                      "width": 250,
+                      "height": 179
+                    }
+                  },
+                  "hash": "0203269_EN_Moff_Gideon_Leader_3646463845",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 62.73,
+                  "url": "https://cdn.starwarsunlimited.com//0203269_EN_Moff_Gideon_Leader_3646463845.png",
+                  "previewUrl": null,
+                  "provider": "aws-s3",
+                  "provider_metadata": null,
+                  "createdAt": "2024-04-25T20:51:55.332Z",
+                  "updatedAt": "2024-04-25T20:51:55.332Z"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "variantOf": { "data": null },
+    "aspects": {
+      "data": [
+        {
+          "id": 7,
+          "attributes": {
+            "name": "Command",
+            "description": "<p>Accelerate your resources and call upon lots of units or strengthen the units you already have in play. This is the aspect of choice for players who want to overwhelm their opponents with a massive board presence. &nbsp;</p>",
+            "color": "#0b992d",
+            "createdAt": "2023-08-10T21:06:20.704Z",
+            "updatedAt": "2024-01-02T18:24:37.502Z",
+            "publishedAt": "2023-11-15T20:01:18.812Z",
+            "locale": "en",
+            "englishName": "Command"
+          }
+        },
+        {
+          "id": 27,
+          "attributes": {
+            "name": "Villainy",
+            "description": "<p>Battle for ultimate power with cards that feature the antagonists of the <i>Star Wars</i> series. This aspect is perfect for players who want to command huge armies or wield powerful destructive effects. Similar to Heroism, this aspect is often paired with another aspect on a card.&nbsp;</p>",
+            "color": "#000000",
+            "createdAt": "2023-08-10T21:18:54.590Z",
+            "updatedAt": "2024-01-02T18:25:57.609Z",
+            "publishedAt": "2023-11-15T20:02:14.861Z",
+            "locale": "en",
+            "englishName": "Villainy"
+          }
+        }
+      ]
+    },
+    "aspectDuplicates": { "data": [] },
+    "type": {
+      "data": {
+        "id": 4,
+        "attributes": {
+          "name": "Leader",
+          "description": "",
+          "value": "Leader",
+          "createdAt": "2023-08-14T21:36:36.932Z",
+          "updatedAt": "2024-03-05T17:11:46.417Z",
+          "publishedAt": "2023-11-15T17:30:41.305Z",
+          "locale": "en",
+          "sortValue": 1
+        }
+      }
+    },
+    "type2": {
+      "data": {
+        "id": 6,
+        "attributes": {
+          "name": "Leader Unit",
+          "description": "",
+          "value": "Leader Unit",
+          "createdAt": "2023-08-14T21:41:58.575Z",
+          "updatedAt": "2024-03-05T17:12:16.062Z",
+          "publishedAt": "2023-11-15T17:30:47.748Z",
+          "locale": "en",
+          "sortValue": 1
+        }
+      }
+    },
+    "traits": {
+      "data": [
+        {
+          "id": 7,
+          "attributes": {
+            "name": "Imperial",
+            "description": "",
+            "createdAt": "2023-08-15T14:38:15.844Z",
+            "updatedAt": "2023-11-15T23:58:36.411Z",
+            "publishedAt": "2023-11-15T23:58:36.407Z",
+            "locale": "en"
+          }
+        },
+        {
+          "id": 12,
+          "attributes": {
+            "name": "Official",
+            "description": "",
+            "createdAt": "2023-08-15T14:38:40.778Z",
+            "updatedAt": "2023-11-16T00:00:09.096Z",
+            "publishedAt": "2023-11-16T00:00:09.091Z",
+            "locale": "en"
+          }
+        }
+      ]
+    },
+    "arenas": {
+      "data": [
+        {
+          "id": 2,
+          "attributes": {
+            "name": "Ground",
+            "description": null,
+            "createdAt": "2023-08-15T14:32:07.804Z",
+            "updatedAt": "2023-08-18T21:37:34.527Z",
+            "publishedAt": "2023-08-18T21:37:34.522Z",
+            "locale": "en"
+          }
+        }
+      ]
+    },
+    "keywords": {
+      "data": [
+        {
+          "id": 27,
+          "attributes": {
+            "name": "Overwhelm",
+            "description": "",
+            "createdAt": "2023-11-28T17:09:53.732Z",
+            "updatedAt": "2023-11-28T17:10:23.307Z",
+            "publishedAt": "2023-11-28T17:09:54.638Z",
+            "locale": "en"
+          }
+        }
+      ]
+    },
+    "rarity": {
+      "data": {
+        "id": 22,
+        "attributes": {
+          "name": "Special",
+          "character": "S",
+          "color": "#000000",
+          "createdAt": "2023-08-14T21:33:28.942Z",
+          "updatedAt": "2024-04-25T14:06:08.982Z",
+          "publishedAt": "2023-11-15T20:15:43.619Z",
+          "locale": "en",
+          "englishName": "Special",
+          "sortValue": 1
+        }
+      }
+    },
+    "expansion": {
+      "data": {
+        "id": 8,
+        "attributes": {
+          "name": "Shadows of the Galaxy",
+          "description": "",
+          "code": "SHD",
+          "createdAt": "2024-03-22T15:04:51.835Z",
+          "updatedAt": "2024-04-25T14:07:34.348Z",
+          "publishedAt": "2024-04-03T14:50:17.860Z",
+          "locale": "en",
+          "sortValue": 2
+        }
+      }
+    },
+    "variantTypes": { "data": [] }
+  }
+}
