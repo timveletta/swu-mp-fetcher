@@ -1,0 +1,19 @@
+{
+  "name": "swu-mp-fetcher",
+  "version": "1.0.0",
+  "description": "Fetches the market price of Star Wars Unlimited cards in AUD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timveletta/swu-mp-fetcher.git"
+  },
+  "author": "Tim Veletta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timveletta/swu-mp-fetcher/issues"
+  },
+  "homepage": "https://github.com/timveletta/swu-mp-fetcher#readme"
+}
