@@ -69,8 +69,8 @@ async function fetchTcgPlayerId(cardName, isHyperspace) {
 
   let product = json.products.find((product) => {
     return (
-      product["product-name"].replace(/[^0-9a-zA-Z]/g, "") ===
-        productName.replace(/[^0-9a-zA-Z]/g, "") &&
+      product["product-name"].replace(/[^a-zA-Z0-9\s]/g, "") ===
+        productName.replace(/[^a-zA-Z0-9\s]/g, "") &&
       product["product-line-name"] === "Star Wars: Unlimited" &&
       product["set-name"] === SET_SHD_NAME
     );
@@ -133,6 +133,7 @@ async function fetchCardData(cardData) {
     cardData.attributes.subtitle ? ` - ${cardData.attributes.subtitle}` : ""
   }`;
   const cardNumber = cardData.attributes.cardNumber;
+  const cardType = cardData.attributes.type.data.attributes.name;
   const isHyperspace = cardData.attributes.hyperspace;
   const isShowcase = cardData.attributes.showcase;
   const rarity = cardData.attributes.rarity.data.attributes.name;
@@ -153,6 +154,7 @@ async function fetchCardData(cardData) {
   return {
     cardNumber,
     cardName,
+    cardType,
     isHyperspace,
     isShowcase,
     tcgPlayerId: tcgPlayerId ? tcgPlayerId : "",
@@ -190,19 +192,138 @@ async function getAUDPrice(price) {
   return Number(roundedPrice.toFixed(2));
 }
 
+// creates a product name that Square is happy with because it starts with a # and has - instead of spaces
+function generateProductId(cardName) {
+  return `#${cardName
+    .replace(/[^a-zA-Z0-9\s]/g, "")
+    .replace(/\s+/g, "-")
+    .toLowerCase()}`;
+}
+
+// find details about the intended structure of the call to Square at
+// https://developer.squareup.com/reference/square/catalog-api/batch-upsert-catalog-objects
+function prepareSquareBatchUpsert(cardListResults) {
+  return {
+    idempotency_key: uuidv4(),
+    batches: [
+      // batches will need to be split up if more than 1000 items are being added
+      {
+        objects: cardListResults
+          .filter((card) => !card.isHyperspace) // filter out hyperspaces because they will be listed as variations
+          .map((card) => {
+            const itemId = generateProductId(card.cardName);
+            const hyperspaceCard = cardListResults.find(
+              (otherCard) =>
+                otherCard.cardName.toLowerCase() ===
+                  card.cardName.toLowerCase() && otherCard.isHyperspace // convert everything to lowercase because Wrecker - BOOM!
+            );
+
+            console.assert(
+              hyperspaceCard,
+              `No hyperspace card found for ${card.cardName}`
+            );
+
+            const variations = [
+              {
+                type: "ITEM_VARIATION",
+                id: `${itemId}-regular-nonfoil`,
+                itemVariationData: {
+                  itemId,
+                  name: card.cardName,
+                  pricingType: "FIXED_PRICING",
+                  sellable: true,
+                  stockable: true,
+                  trackInventory: true,
+                  priceMoney: {
+                    currency: "AUD",
+                    amount: card.marketPricesAud.normal,
+                  },
+                },
+              },
+              {
+                type: "ITEM_VARIATION",
+                id: `${itemId}-regular-foil`,
+                itemVariationData: {
+                  itemId,
+                  name: card.cardName,
+                  pricingType: "FIXED_PRICING",
+                  sellable: true,
+                  stockable: true,
+                  trackInventory: true,
+                  priceMoney: {
+                    currency: "AUD",
+                    amount:
+                      card.marketPricesAud.foil !== 0
+                        ? card.marketPricesAud.foil
+                        : card.marketPricesAud.normal, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
+                  },
+                },
+              },
+            ];
+
+            if (hyperspaceCard) {
+              variations.push(
+                {
+                  type: "ITEM_VARIATION",
+                  id: `${itemId}-hyperspace-nonfoil`,
+                  itemVariationData: {
+                    itemId,
+                    name: card.cardName,
+                    pricingType: "FIXED_PRICING",
+                    sellable: true,
+                    stockable: true,
+                    trackInventory: true,
+                    priceMoney: {
+                      currency: "AUD",
+                      amount: hyperspaceCard.marketPricesAud.normal,
+                    },
+                  },
+                },
+                {
+                  type: "ITEM_VARIATION",
+                  id: `${itemId}-hyperspace-foil`,
+                  itemVariationData: {
+                    itemId,
+                    name: card.cardName,
+                    pricingType: "FIXED_PRICING",
+                    sellable: true,
+                    stockable: true,
+                    trackInventory: true,
+                    priceMoney: {
+                      currency: "AUD",
+                      amount:
+                        hyperspaceCard.marketPricesAud.foil !== 0
+                          ? hyperspaceCard.marketPricesAud.foil
+                          : hyperspaceCard.marketPricesAud.normal, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
+                    },
+                  },
+                }
+              );
+            }
+
+            return {
+              type: "ITEM",
+              id: itemId,
+              itemData: {
+                name: card.cardName,
+                descriptionHtml: `<p>Star Wars Unlimited</p><p>Set: Shadows of the Galaxy</p><p>Rarity ${card.rarity}</p><p>Type ${card.type}</p>`,
+                availableOnline: true,
+                availableForPickup: true,
+                variations,
+              },
+            };
+          }),
+      },
+    ],
+  };
+}
+
 async function main() {
   const cardList = await fetchCardList(SET_SHD_ID);
 
   const result = await Promise.all(cardList.map(fetchCardData));
-  // console.log(result.filter(card => card.rarity === 'Rare' || card.rarity === 'Legendary').filter(card => card.marketPriceAud > 2).sort((a, b) => b.marketPriceUsd - a.marketPriceUsd))
-  // console.log(result);
 
-  writeToFile(
-    "./card-list.json",
-    result
-      .filter((card) => card.rarity === "Rare" || card.rarity === "Legendary")
-      .sort((a, b) => b.marketPriceUsd - a.marketPriceUsd)
-  );
+  writeToFile("./square-upsert.json", prepareSquareBatchUpsert(result));
 }
 
 main();
