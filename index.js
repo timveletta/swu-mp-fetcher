@@ -227,35 +227,35 @@ function prepareSquareBatchUpsert(cardListResults) {
               {
                 type: "ITEM_VARIATION",
                 id: `${itemId}-regular-nonfoil`,
-                itemVariationData: {
+                item_variation_data: {
                   itemId,
                   name: card.cardName,
-                  pricingType: "FIXED_PRICING",
+                  pricing_type: "FIXED_PRICING",
                   sellable: true,
                   stockable: true,
-                  trackInventory: true,
-                  priceMoney: {
+                  track_inventory: true,
+                  price_money: {
                     currency: "AUD",
-                    amount: card.marketPricesAud.normal,
+                    amount: card.marketPricesAud.normal * 100, // square wants prices in cents
                   },
                 },
               },
               {
                 type: "ITEM_VARIATION",
                 id: `${itemId}-regular-foil`,
-                itemVariationData: {
+                item_variation_data: {
                   itemId,
                   name: card.cardName,
-                  pricingType: "FIXED_PRICING",
+                  pricing_type: "FIXED_PRICING",
                   sellable: true,
                   stockable: true,
-                  trackInventory: true,
-                  priceMoney: {
+                  track_inventory: true,
+                  price_money: {
                     currency: "AUD",
                     amount:
                       card.marketPricesAud.foil !== 0
-                        ? card.marketPricesAud.foil
-                        : card.marketPricesAud.normal, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
+                        ? card.marketPricesAud.foil * 100
+                        : card.marketPricesAud.normal * 100, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
                   },
                 },
               },
@@ -266,35 +266,35 @@ function prepareSquareBatchUpsert(cardListResults) {
                 {
                   type: "ITEM_VARIATION",
                   id: `${itemId}-hyperspace-nonfoil`,
-                  itemVariationData: {
+                  item_variation_data: {
                     itemId,
                     name: card.cardName,
-                    pricingType: "FIXED_PRICING",
+                    pricing_type: "FIXED_PRICING",
                     sellable: true,
                     stockable: true,
-                    trackInventory: true,
-                    priceMoney: {
+                    track_inventory: true,
+                    price_money: {
                       currency: "AUD",
-                      amount: hyperspaceCard.marketPricesAud.normal,
+                      amount: hyperspaceCard.marketPricesAud.normal * 100,
                     },
                   },
                 },
                 {
                   type: "ITEM_VARIATION",
                   id: `${itemId}-hyperspace-foil`,
-                  itemVariationData: {
+                  item_variation_data: {
                     itemId,
                     name: card.cardName,
-                    pricingType: "FIXED_PRICING",
+                    pricing_type: "FIXED_PRICING",
                     sellable: true,
                     stockable: true,
-                    trackInventory: true,
-                    priceMoney: {
+                    track_inventory: true,
+                    price_money: {
                       currency: "AUD",
                       amount:
                         hyperspaceCard.marketPricesAud.foil !== 0
-                          ? hyperspaceCard.marketPricesAud.foil
-                          : hyperspaceCard.marketPricesAud.normal, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
+                          ? hyperspaceCard.marketPricesAud.foil * 100
+                          : hyperspaceCard.marketPricesAud.normal * 100, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
                     },
                   },
                 }
@@ -304,13 +304,18 @@ function prepareSquareBatchUpsert(cardListResults) {
             return {
               type: "ITEM",
               id: itemId,
-              itemData: {
+              item_data: {
                 name: card.cardName,
-                descriptionHtml: `<p>Star Wars Unlimited</p><p>Set: Shadows of the Galaxy</p><p>Rarity ${card.rarity}</p><p>Type ${card.type}</p>`,
-                availableOnline: true,
-                availableForPickup: true,
+                description_html: `<p>Star Wars Unlimited</p><p>Set: Shadows of the Galaxy</p><p>Rarity ${card.rarity}</p><p>Type ${card.type}</p>`,
+                available_online: true,
+                available_for_pickup: true,
                 variations,
               },
+              categories: [
+                {
+                  id: "VHF4QESYJ6PLCE34HDKAUHJI", // Shadows of the Galaxy
+                },
+              ],
             };
           }),
       },
