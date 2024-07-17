@@ -1,7 +1,6 @@
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 
-const USD_AUD_EXCHANGE_RATE = 1.4766202907; // TODO fetch from URL
 const SET_SHD_ID = 8;
 const SET_SHD_NAME = "Shadows of the Galaxy";
 const CARDS_API_URL = new URL(
@@ -15,6 +14,8 @@ const CARD_SEARCH_API_URL = new URL(
 const CARD_DETAILS_API_URL = new URL("https://mp-search-api.tcgplayer.com/");
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+let exchangeRateCache = null;
 
 async function fetchCardList(setId, page = 1, cardList = []) {
   const cardListURL = new URL(CARDS_API_URL);
@@ -94,24 +95,30 @@ async function fetchCardData(cardData) {
   const cardNumber = cardData.attributes.cardNumber;
   const isHyperspace = cardData.attributes.hyperspace;
   const isShowcase = cardData.attributes.showcase;
+  const rarity = cardData.attributes.rarity.data.attributes.name
+  let tcgPlayerId = null;
+  let marketPriceUsd = 0
 
-  // TCG Player appears to not like us firing a lot of requests at once
-  // so we add an artificial delay
-  await sleep(cardNumber * 10);
+  if(rarity === 'Rare' || rarity === 'Legendary') {
+    // TCG Player appears to not like us firing a lot of requests at once
+    // so we add an artificial delay
+    await sleep(cardNumber * 10);
 
-  const tcgPlayerId = await fetchTcgPlayerId(cardName, isHyperspace);
-  const marketPriceUsd = tcgPlayerId
-    ? await fetchTcgPlayerMarketPrice(tcgPlayerId)
-    : 0;
+    tcgPlayerId = await fetchTcgPlayerId(cardName, isHyperspace);
+    marketPriceUsd = tcgPlayerId
+      ? await fetchTcgPlayerMarketPrice(tcgPlayerId)
+      : 0;
+  }
 
   return {
     cardNumber,
     cardName,
     isHyperspace,
     isShowcase,
-    tcgPlayerId,
+    tcgPlayerId: tcgPlayerId ? tcgPlayerId : '',
     marketPriceUsd,
-    marketPriceAud: Number(marketPriceUsd * USD_AUD_EXCHANGE_RATE).toFixed(2),
+    marketPriceAud: await getAUDPrice(marketPriceUsd),
+    rarity
   };
 }
 
@@ -119,13 +126,34 @@ async function writeToFile(fileName, data) {
   fs.writeFileSync(fileName, JSON.stringify(data));
 }
 
+async function getExchangeRate() {
+  if (exchangeRateCache) return exchangeRateCache;
+  try {
+      const response = await fetch('https://open.er-api.com/v6/latest/USD');
+      const data = await response.json();
+      exchangeRateCache = data.rates.AUD;
+      return exchangeRateCache;
+  } catch (error) {
+      console.error('Failed to fetch exchange rate:', error);
+      return null;
+  }
+}
+
+async function getAUDPrice(price) {
+  const exchangeRate = await getExchangeRate()
+  const convertedPrice = price * exchangeRate * 1.1;
+  let roundedPrice = Math.floor(convertedPrice * 2) / 2;
+  return roundedPrice.toFixed(2)
+}
+
 async function main() {
   const cardList = await fetchCardList(SET_SHD_ID);
 
   const result = await Promise.all(cardList.map(fetchCardData));
-  console.log(result);
+  // console.log(result.filter(card => card.rarity === 'Rare' || card.rarity === 'Legendary').filter(card => card.marketPriceAud > 2).sort((a, b) => b.marketPriceUsd - a.marketPriceUsd))
+  // console.log(result);
 
-  writeToFile("./card-list.json", result);
+  writeToFile("./card-list.json", result.filter(card => card.rarity === 'Rare' || card.rarity === 'Legendary').sort((a, b) => b.marketPriceUsd - a.marketPriceUsd));
 }
 
 main();
