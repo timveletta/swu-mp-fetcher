@@ -12,6 +12,7 @@ const CARD_SEARCH_API_URL = new URL(
   "https://data.tcgplayer.com/"
 );
 const CARD_DETAILS_API_URL = new URL("https://mp-search-api.tcgplayer.com/");
+const CARD_PRICE_POINTS_API_URL = new URL("https://mpapi.tcgplayer.com/");
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -26,6 +27,10 @@ async function fetchCardList(setId, page = 1, cardList = []) {
   );
   cardListURL.searchParams.append("pagination[page]", page);
   cardListURL.searchParams.append("pagination[pageSize]", 50);
+
+  // only search for rares and legendaries cards
+  cardListURL.searchParams.append("filters[$and][1][rarity][id][$in][0]", 17);
+  cardListURL.searchParams.append("filters[$and][1][rarity][id][$in][1]", 12);
 
   console.log("Fetching card list page ", page);
 
@@ -42,6 +47,11 @@ async function fetchCardList(setId, page = 1, cardList = []) {
 }
 
 async function fetchTcgPlayerId(cardName, isHyperspace) {
+  // Bazine is a special case because TCG player misspells it only for the hyperspace card
+  if (isHyperspace && cardName === "Bazine Netal - Spy for the First Order") {
+    cardName = "Bazine Natal - Spy for the First Order";
+  }
+
   const productName = `${cardName}${isHyperspace ? " (Hyperspace)" : ""}`;
   const tcgPlayerSearchUrl = new URL(CARD_SEARCH_API_URL);
 
@@ -57,12 +67,21 @@ async function fetchTcgPlayerId(cardName, isHyperspace) {
   const result = await fetch(decodeURIComponent(tcgPlayerSearchUrl.toString()));
   const json = await result.json();
 
-  const product = json.products.find(
-    (product) =>
-      product["product-name"] === productName &&
+  let product = json.products.find((product) => {
+    return (
+      product["product-name"].replace(/[^0-9a-zA-Z]/g, "") ===
+        productName.replace(/[^0-9a-zA-Z]/g, "") &&
       product["product-line-name"] === "Star Wars: Unlimited" &&
       product["set-name"] === SET_SHD_NAME
-  );
+    );
+  });
+
+  // if multiple products found, take the highest confidence "score" one
+  if (!product) {
+    product = json.products
+      .sort((productA, productB) => productB["score"] - productA["score"])
+      .shift();
+  }
 
   console.assert(
     product,
@@ -75,17 +94,38 @@ async function fetchTcgPlayerId(cardName, isHyperspace) {
 }
 
 async function fetchTcgPlayerMarketPrice(tcgPlayerId) {
+  const tcgPlayerCardPricePointsUrl = new URL(
+    `/v2/product/${tcgPlayerId}/pricepoints`,
+    CARD_PRICE_POINTS_API_URL
+  );
   const tcgPlayerCardDetailsUrl = new URL(
     `/v1/product/${tcgPlayerId}/details`,
     CARD_DETAILS_API_URL
   );
 
-  //   console.log("Fetching card details at ", tcgPlayerCardDetailsUrl);
+  try {
+    const result = await fetch(tcgPlayerCardPricePointsUrl);
+    const json = await result.json();
 
-  const result = await fetch(tcgPlayerCardDetailsUrl);
-  const json = await result.json();
+    const normal = json.find(
+      (pricePoint) => pricePoint.printingType === "Normal"
+    );
+    const foil = json.find((pricePoint) => pricePoint.printingType === "Foil");
+    console.assert(
+      normal,
+      `No normal price point found for TCG Player ID: ${tcgPlayerId}`
+    );
+    console.assert(
+      foil,
+      `No foil price point found for TCG Player ID: ${tcgPlayerId}`
+    );
+    return { normal: normal.marketPrice, foil: foil.marketPrice };
+  } catch {
+    const result = await fetch(tcgPlayerCardDetailsUrl);
+    const json = await result.json();
 
-  return json.marketPrice;
+    return { normal: json.marketPrice, foil: 0 };
+  }
 }
 
 async function fetchCardData(cardData) {
@@ -95,30 +135,33 @@ async function fetchCardData(cardData) {
   const cardNumber = cardData.attributes.cardNumber;
   const isHyperspace = cardData.attributes.hyperspace;
   const isShowcase = cardData.attributes.showcase;
-  const rarity = cardData.attributes.rarity.data.attributes.name
+  const rarity = cardData.attributes.rarity.data.attributes.name;
   let tcgPlayerId = null;
-  let marketPriceUsd = 0
 
-  if(rarity === 'Rare' || rarity === 'Legendary') {
-    // TCG Player appears to not like us firing a lot of requests at once
-    // so we add an artificial delay
-    await sleep(cardNumber * 10);
+  // TV: commenting this out because I changed the filters from the SWU website to
+  // only get rare or legendary cards, I don't mind if you want to include it again
+  // if (rarity === "Rare" || rarity === "Legendary") {
 
-    tcgPlayerId = await fetchTcgPlayerId(cardName, isHyperspace);
-    marketPriceUsd = tcgPlayerId
-      ? await fetchTcgPlayerMarketPrice(tcgPlayerId)
-      : 0;
-  }
+  // TCG Player appears to not like us firing a lot of requests at once
+  // so we add an artificial delay
+
+  await sleep(cardNumber * 10);
+  tcgPlayerId = await fetchTcgPlayerId(cardName, isHyperspace);
+  marketPricesUsd = await fetchTcgPlayerMarketPrice(tcgPlayerId);
+  // }
 
   return {
     cardNumber,
     cardName,
     isHyperspace,
     isShowcase,
-    tcgPlayerId: tcgPlayerId ? tcgPlayerId : '',
-    marketPriceUsd,
-    marketPriceAud: await getAUDPrice(marketPriceUsd),
-    rarity
+    tcgPlayerId: tcgPlayerId ? tcgPlayerId : "",
+    marketPricesUsd,
+    marketPricesAud: {
+      normal: await getAUDPrice(marketPricesUsd.normal),
+      foil: await getAUDPrice(marketPricesUsd.foil),
+    },
+    rarity,
   };
 }
 
@@ -129,21 +172,22 @@ async function writeToFile(fileName, data) {
 async function getExchangeRate() {
   if (exchangeRateCache) return exchangeRateCache;
   try {
-      const response = await fetch('https://open.er-api.com/v6/latest/USD');
-      const data = await response.json();
-      exchangeRateCache = data.rates.AUD;
-      return exchangeRateCache;
+    const response = await fetch("https://open.er-api.com/v6/latest/USD");
+    const data = await response.json();
+    exchangeRateCache = data.rates.AUD;
+    console.log("Current exchange rate is: ", exchangeRateCache);
+    return exchangeRateCache;
   } catch (error) {
-      console.error('Failed to fetch exchange rate:', error);
-      return null;
+    console.error("Failed to fetch exchange rate:", error);
+    return null;
   }
 }
 
 async function getAUDPrice(price) {
-  const exchangeRate = await getExchangeRate()
+  const exchangeRate = await getExchangeRate();
   const convertedPrice = price * exchangeRate * 1.1;
   let roundedPrice = Math.floor(convertedPrice * 2) / 2;
-  return roundedPrice.toFixed(2)
+  return Number(roundedPrice.toFixed(2));
 }
 
 async function main() {
@@ -153,7 +197,12 @@ async function main() {
   // console.log(result.filter(card => card.rarity === 'Rare' || card.rarity === 'Legendary').filter(card => card.marketPriceAud > 2).sort((a, b) => b.marketPriceUsd - a.marketPriceUsd))
   // console.log(result);
 
-  writeToFile("./card-list.json", result.filter(card => card.rarity === 'Rare' || card.rarity === 'Legendary').sort((a, b) => b.marketPriceUsd - a.marketPriceUsd));
+  writeToFile(
+    "./card-list.json",
+    result
+      .filter((card) => card.rarity === "Rare" || card.rarity === "Legendary")
+      .sort((a, b) => b.marketPriceUsd - a.marketPriceUsd)
+  );
 }
 
 main();
