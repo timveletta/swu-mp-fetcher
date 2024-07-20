@@ -211,6 +211,7 @@ function prepareSquareBatchUpsert(cardListResults) {
       // batches will need to be split up if more than 1000 items are being added
       {
         objects: cardListResults
+          .filter((card) => card.cardType !== 'Leader') // Filter out leaders
           .filter((card) => !card.isHyperspace) // filter out hyperspaces because they will be listed as variations
           .map((card) => {
             const itemId = generateProductId(card.cardName);
@@ -308,7 +309,7 @@ function prepareSquareBatchUpsert(cardListResults) {
               id: itemId,
               item_data: {
                 name: card.cardName,
-                description_html: `<p>Star Wars Unlimited</p><p>Set: Shadows of the Galaxy</p><p>Rarity ${card.rarity}</p><p>Type ${card.type}</p>`,
+                description_html: `<p>Star Wars Unlimited</p><p>Set: Shadows of the Galaxy</p><p>Rarity: ${card.rarity}</p><p>Type: ${card.cardType}</p>`,
                 available_online: true,
                 available_for_pickup: true,
                 variations,
