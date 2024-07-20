@@ -47,10 +47,11 @@ async function fetchCardList(setId, page = 1, cardList = []) {
 }
 
 async function fetchTcgPlayerId(cardName, isHyperspace) {
-  // Bazine is a special case because TCG player misspells it only for the hyperspace card
-  if (isHyperspace && cardName === "Bazine Netal - Spy for the First Order") {
-    cardName = "Bazine Natal - Spy for the First Order";
-  }
+  // // Bazine is a special case because TCG player misspells it only for the hyperspace card
+  // Fixed as of 20/07 - AC
+  // if (isHyperspace && cardName === "Bazine Netal - Spy for the First Order") {
+  //   cardName = "Bazine Natal - Spy for the First Order";
+  // }
 
   const productName = `${cardName}${isHyperspace ? " (Hyperspace)" : ""}`;
   const tcgPlayerSearchUrl = new URL(CARD_SEARCH_API_URL);
@@ -189,6 +190,7 @@ async function getAUDPrice(price) {
   const exchangeRate = await getExchangeRate();
   const convertedPrice = price * exchangeRate * 1.1;
   let roundedPrice = Math.floor(convertedPrice * 2) / 2;
+  if (roundedPrice < 2) roundedPrice = 2;
   return Number(roundedPrice.toFixed(2));
 }
 
