@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
+const { Client, Environment } = require("square");
 
 const SET_SHD_ID = 8;
 const SET_SHD_NAME = "Shadows of the Galaxy";
@@ -14,9 +15,18 @@ const CARD_SEARCH_API_URL = new URL(
 const CARD_DETAILS_API_URL = new URL("https://mp-search-api.tcgplayer.com/");
 const CARD_PRICE_POINTS_API_URL = new URL("https://mpapi.tcgplayer.com/");
 
+const client = new Client({
+  accessToken: process.env.SQUARE_ACCESS_TOKEN_PROD,
+  environment: Environment.Production,
+});
+
+const { catalogApi } = client;
+
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 let exchangeRateCache = null;
+
+const cardIDs = []
 
 async function fetchCardList(setId, page = 1, cardList = []) {
   const cardListURL = new URL(CARDS_API_URL);
@@ -82,6 +92,11 @@ async function fetchTcgPlayerId(cardName, isHyperspace) {
     product = json.products
       .sort((productA, productB) => productB["score"] - productA["score"])
       .shift();
+  }
+
+  // Jango Fett is returning a null id 21/7 - AC
+  if(product["product-name"] === 'Jango Fett - Renowned Bounty Hunter') {
+    product["product-id"] = 552172
   }
 
   console.assert(
@@ -152,6 +167,13 @@ async function fetchCardData(cardData) {
   marketPricesUsd = await fetchTcgPlayerMarketPrice(tcgPlayerId);
   // }
 
+  // Messy but keeping track of card id's we've processed already as lots of duplicates were being returned previously
+  if (cardIDs[tcgPlayerId]) {
+    return null
+  } else {
+    cardIDs[tcgPlayerId] = 1;
+  }
+
   return {
     cardNumber,
     cardName,
@@ -206,7 +228,7 @@ function generateProductId(cardName) {
 // https://developer.squareup.com/reference/square/catalog-api/batch-upsert-catalog-objects
 function prepareSquareBatchUpsert(cardListResults) {
   return {
-    idempotency_key: uuidv4(),
+    idempotencyKey: uuidv4(),
     batches: [
       // batches will need to be split up if more than 1000 items are being added
       {
@@ -230,14 +252,14 @@ function prepareSquareBatchUpsert(cardListResults) {
               {
                 type: "ITEM_VARIATION",
                 id: `${itemId}-regular-nonfoil`,
-                item_variation_data: {
+                itemVariationData: {
                   itemId,
                   name: card.cardName,
-                  pricing_type: "FIXED_PRICING",
+                  pricingType: "FIXED_PRICING",
                   sellable: true,
                   stockable: true,
-                  track_inventory: true,
-                  price_money: {
+                  trackInventory: true,
+                  priceMoney: {
                     currency: "AUD",
                     amount: card.marketPricesAud.normal * 100, // square wants prices in cents
                   },
@@ -246,14 +268,14 @@ function prepareSquareBatchUpsert(cardListResults) {
               {
                 type: "ITEM_VARIATION",
                 id: `${itemId}-regular-foil`,
-                item_variation_data: {
+                itemVariationData: {
                   itemId,
                   name: card.cardName,
-                  pricing_type: "FIXED_PRICING",
+                  pricingType: "FIXED_PRICING",
                   sellable: true,
                   stockable: true,
-                  track_inventory: true,
-                  price_money: {
+                  trackInventory: true,
+                  priceMoney: {
                     currency: "AUD",
                     amount:
                       card.marketPricesAud.foil !== 0
@@ -269,14 +291,14 @@ function prepareSquareBatchUpsert(cardListResults) {
                 {
                   type: "ITEM_VARIATION",
                   id: `${itemId}-hyperspace-nonfoil`,
-                  item_variation_data: {
+                  itemVariationData: {
                     itemId,
                     name: card.cardName,
-                    pricing_type: "FIXED_PRICING",
+                    pricingType: "FIXED_PRICING",
                     sellable: true,
                     stockable: true,
-                    track_inventory: true,
-                    price_money: {
+                    trackInventory: true,
+                    priceMoney: {
                       currency: "AUD",
                       amount: hyperspaceCard.marketPricesAud.normal * 100,
                     },
@@ -285,19 +307,19 @@ function prepareSquareBatchUpsert(cardListResults) {
                 {
                   type: "ITEM_VARIATION",
                   id: `${itemId}-hyperspace-foil`,
-                  item_variation_data: {
+                  itemVariationData: {
                     itemId,
                     name: card.cardName,
-                    pricing_type: "FIXED_PRICING",
+                    pricingType: "FIXED_PRICING",
                     sellable: true,
                     stockable: true,
-                    track_inventory: true,
-                    price_money: {
+                    trackInventory: true,
+                    priceMoney: {
                       currency: "AUD",
                       amount:
                         hyperspaceCard.marketPricesAud.foil !== 0
                           ? hyperspaceCard.marketPricesAud.foil * 100
-                          : hyperspaceCard.marketPricesAud.normal * 100, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
+                          : hyperspaceCard.marketPricesAud.normal * 1.5 * 100, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
                     },
                   },
                 }
@@ -307,11 +329,11 @@ function prepareSquareBatchUpsert(cardListResults) {
             return {
               type: "ITEM",
               id: itemId,
-              item_data: {
+              itemData: {
                 name: card.cardName,
-                description_html: `<p>Star Wars Unlimited</p><p>Set: Shadows of the Galaxy</p><p>Rarity: ${card.rarity}</p><p>Type: ${card.cardType}</p>`,
-                available_online: true,
-                available_for_pickup: true,
+                descriptionHtml: `<p>Star Wars Unlimited</p><p>Set: Shadows of the Galaxy</p><p>Rarity: ${card.rarity}</p><p>Type: ${card.cardType}</p>`,
+                availableOnline: true,
+                availableForPickup: true,
                 variations,
               },
               categories: [
@@ -331,7 +353,17 @@ async function main() {
 
   const result = await Promise.all(cardList.map(fetchCardData));
 
-  writeToFile("./square-upsert.json", prepareSquareBatchUpsert(result));
+  const upsertQuery = await prepareSquareBatchUpsert(result.filter((card) => !!card));
+
+  writeToFile('./square-upsert.json', upsertQuery)
+
+  try {
+    const response = await catalogApi.batchUpsertCatalogObjects(upsertQuery);
+    writeToFile("./square-upsert-response.json", response);
+  }
+  catch (error) {
+    console.error(error);
+  }
 }
 
 main();
