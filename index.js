@@ -330,7 +330,7 @@ function prepareSquareBatchUpsert(cardListResults) {
                       },
                       {
                         itemOptionId: '6M2BLX3VCNHQLAZX3G33SF2F', //Finish
-                        itemOptionValueId: 'KMOF3XXDLH7P34WGOMTWZ25K' //Nonfoil
+                        itemOptionValueId: 'JFNYDDA5F354MBT3SIWUEKQI' //Nonfoil
                       },
                     ]
                   },
@@ -376,12 +376,20 @@ function prepareSquareBatchUpsert(cardListResults) {
                 availableOnline: true,
                 availableForPickup: true,
                 variations,
+                itemOptions: [
+                  {
+                    itemOptionId: 'CDXMZCL45FZXBWJKUD6Y57SB'
+                  },
+                  {
+                    itemOptionId: '6M2BLX3VCNHQLAZX3G33SF2F'
+                  }
+                ],
+                categories: [
+                  {
+                    id: 'VHF4QESYJ6PLCE34HDKAUHJI', // Shadows of the Galaxy
+                  },
+                ]
               },
-              categories: [
-                {
-                  id: 'VHF4QESYJ6PLCE34HDKAUHJI', // Shadows of the Galaxy
-                },
-              ],
             };
           }),
       },
@@ -394,7 +402,7 @@ async function main() {
 
   const result = await Promise.all(cardList.map(fetchCardData));
 
-  const upsertQuery = await prepareSquareBatchUpsert(result.filter((card) => !!card));
+  const upsertQuery = await prepareSquareBatchUpsert(result.filter((card) => !!card)); // Remove nulls
 
   writeToFile('./square-upsert.json', upsertQuery)
 
@@ -407,6 +415,6 @@ async function main() {
   }
 }
 
-BigInt.prototype.toJSON = function() { return this.toString() }
+BigInt.prototype.toJSON = function() { return this.toString() } // Allow BigInts to be JSON serialized
 
 main();
