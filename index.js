@@ -227,6 +227,7 @@ function generateProductId(cardName) {
 // find details about the intended structure of the call to Square at
 // https://developer.squareup.com/reference/square/catalog-api/batch-upsert-catalog-objects
 function prepareSquareBatchUpsert(cardListResults) {
+  // TODO: Add Variant & Finish options to every variety
   return {
     idempotencyKey: uuidv4(),
     batches: [
@@ -263,6 +264,16 @@ function prepareSquareBatchUpsert(cardListResults) {
                     currency: "AUD",
                     amount: card.marketPricesAud.normal * 100, // square wants prices in cents
                   },
+                  itemOptionValues: [
+                    {
+                      itemOptionId: 'CDXMZCL45FZXBWJKUD6Y57SB', //Variant
+                      itemOptionValueId: 'G6MVZJXZHNTX64MTO6YDJSSW' //Regular
+                    },
+                    {
+                      itemOptionId: '6M2BLX3VCNHQLAZX3G33SF2F', //Finish
+                      itemOptionValueId: 'JFNYDDA5F354MBT3SIWUEKQI' //Nonfoil
+                    },
+                  ]
                 },
               },
               {
@@ -282,6 +293,16 @@ function prepareSquareBatchUpsert(cardListResults) {
                         ? card.marketPricesAud.foil * 100
                         : card.marketPricesAud.normal * 100, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
                   },
+                  itemOptionValues: [
+                    {
+                      itemOptionId: 'CDXMZCL45FZXBWJKUD6Y57SB', //Variant
+                      itemOptionValueId: 'G6MVZJXZHNTX64MTO6YDJSSW' //Regular
+                    },
+                    {
+                      itemOptionId: '6M2BLX3VCNHQLAZX3G33SF2F', //Finish
+                      itemOptionValueId: 'KMOF3XXDLH7P34WGOMTWZ25K' //Foil
+                    },
+                  ]
                 },
               },
             ];
@@ -302,6 +323,16 @@ function prepareSquareBatchUpsert(cardListResults) {
                       currency: "AUD",
                       amount: hyperspaceCard.marketPricesAud.normal * 100,
                     },
+                    itemOptionValues: [
+                      {
+                        itemOptionId: 'CDXMZCL45FZXBWJKUD6Y57SB', //Variant
+                        itemOptionValueId: '6ZSIXKC7CYKLPC6LYURK3MLO' //Hyperspace
+                      },
+                      {
+                        itemOptionId: '6M2BLX3VCNHQLAZX3G33SF2F', //Finish
+                        itemOptionValueId: 'KMOF3XXDLH7P34WGOMTWZ25K' //Nonfoil
+                      },
+                    ]
                   },
                 },
                 {
@@ -321,6 +352,16 @@ function prepareSquareBatchUpsert(cardListResults) {
                           ? hyperspaceCard.marketPricesAud.foil * 100
                           : hyperspaceCard.marketPricesAud.normal * 1.5 * 100, // not sure how you want to handle it when TCG Player doesn't list a price for the foil
                     },
+                    itemOptionValues: [
+                      {
+                        itemOptionId: 'CDXMZCL45FZXBWJKUD6Y57SB', //Variant
+                        itemOptionValueId: '6ZSIXKC7CYKLPC6LYURK3MLO' //Hyperspace
+                      },
+                      {
+                        itemOptionId: '6M2BLX3VCNHQLAZX3G33SF2F', //Finish
+                        itemOptionValueId: 'KMOF3XXDLH7P34WGOMTWZ25K' //Foil
+                      },
+                    ]
                   },
                 }
               );
@@ -338,7 +379,7 @@ function prepareSquareBatchUpsert(cardListResults) {
               },
               categories: [
                 {
-                  id: "VHF4QESYJ6PLCE34HDKAUHJI", // Shadows of the Galaxy
+                  id: 'VHF4QESYJ6PLCE34HDKAUHJI', // Shadows of the Galaxy
                 },
               ],
             };
@@ -359,11 +400,13 @@ async function main() {
 
   try {
     const response = await catalogApi.batchUpsertCatalogObjects(upsertQuery);
-    writeToFile("./square-upsert-response.json", response);
+    writeToFile("./square-upsert-response.json", response.result);
   }
   catch (error) {
     console.error(error);
   }
 }
+
+BigInt.prototype.toJSON = function() { return this.toString() }
 
 main();
